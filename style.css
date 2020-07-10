@@ -1,38 +1,53 @@
-#title
+#title 
 {
+font-family: noteworthy;
+height: 100px;
  font-size: 50px;
  color: white;
  text-align:center;
- font-family: noteworthy;
  background-color: lightGray;
- border-radius: 10px;
- margin-bottom: 5px;
-}
+ border-radius: 50px;
 
+}
+body {
+
+ font-family: optima;
+ text-align: center;
+ font-size: 15px;
+}
+#screen {
+border-radius: 50px;
+padding-bottom: 30px;
+font-size: 20px;
+
+ 
+}
+#task {
+ font-size: 30px;
+ font-weight: bold;
+}
 .button
 {
-margin-top:-40px;
-padding: 0 0 0 0;
 height: 100px;
-text-align: center;
 background-color: pink;
-border-radius: 10px;
+border-radius:50px;
+margin-top: 35px;
 }
 .Call {
 border: solid 2px white;
 background-color: orange;
-border-radius: 10px;
+border-radius: 30px;
 height:60px;
 width: 60px;
 font-size: 20px;
 color:white;
 font-weight: bold;
-}
-.make
+} 
+.make 
 {
 border: solid 2px white;
 background-color: crimson;
-border-radius: 10px;
+border-radius: 30px;
 height:60px;
 width: 60px;
 font-size: 20px;
@@ -41,11 +56,11 @@ font-size: 20px;
  margin: 10px 0 0 0;
  padding-bottom: 0px;
 }
-.keepCool
+.keepCool 
 {
 border: solid 2px white;
 background-color: seaGreen;
-border-radius: 10px;
+border-radius: 30px;
 height:60px;
 width: 60px;
  font-size: 20px;
@@ -55,7 +70,7 @@ width: 60px;
 .reflect{
 background-color: steelBlue;
 border: solid 2px white;
-border-radius: 10px;
+border-radius: 30px;
 height:60px;
 width: 60px;
 font-size: 20px;
@@ -65,7 +80,7 @@ font-weight: bold;
 .reset{
 background-color: magenta;
 border: solid 2px white;
-border-radius: 10px;
+border-radius: 30px;
 height:60px;
 width: 60px;
 font-size: 20px;
@@ -74,10 +89,10 @@ font-weight: bold;
 margin-top: -10px;
 }
 #face {
-position: absolute;
-margin-left: 50%;
-margin-top: -30px;
-transform: translate(-55%,80%);
+position: relative;
+margin-left: 20%;
+margin-bottom: 30px;
+transform: translate(0%,-10%);
 width: 200px;
 height: 200px;
  background-color:gold;
@@ -87,8 +102,31 @@ height: 200px;
  font-weight: bold;
  border: solid black 11px;
  border-radius: 200px;
+   animation: a2 6s infinite;
 }
-#mouth
+#mouth 
+{
+width: 100px;
+height: 50px;
+border: solid 10px black;
+ background-color: gold;
+ border-radius:0 0 100% 100%;
+ margin:   20px 50px -10px 40px;
+ border-right-color:transparent;
+ border-left-color: transparent;
+ border-top-color: transparent;
+}
+#mouth1
+{
+width: 100px;
+height: 50px;
+border: solid 10px transparent;
+ background-color: transparent;
+ border-radius:0 0 100px 100px;
+ margin:   -50px 50px 0px 40px;
+
+}
+#smiles 
 {
 width: 100px;
 height: 100px;
@@ -99,7 +137,6 @@ border: solid 10px black;
  border-right-color:transparent;
  border-left-color: transparent;
  border-top-color: transparent;
- z-index:0;
 }
 #eye
 {
@@ -109,123 +146,101 @@ border: solid 8px black;
  background-color: white;
  border-radius: 100px;
  display: inline-block;
- margin: 60px 10px -30px 10px;
+ margin: 40px 10px -30px 10px;
 }
-ol
-{
- font-family: Arial;
+@keyframes a2 {
+  
+    0% {
+     left: 25%;
+     top: 50px;
+   transform: scale(0.5);
+    }
+  17%
+  {
+   left:0;
+   top:70px;
+       transform: scale(0.8);
+  }
+  34%
+  {
+   left: -25%;
+   top:50px;
+   transform: scale(0.5);
+  }
+     51%
+     {
+     left:-25%;
+     top:-10px;
+       transform: scale(.8);
+ }
+   
+    68%
+    {
+     left: 0%;
+     top:-30px;
+     transform: scale(.5);
+    }
+  85%
+  {
+   left:25%;
+   top:-10px;
+      transform: scale(0.8);
+  }
+  100%
+  {
+   left:25%;
+   top:50px;
+   transform: scale(.5);
+  }
+  
+
+ }
+ 
+ 
+  ol{
  font-size: 20px;
- border-radius: 20px;
  color: darkGray;
 }
-#display {
-color: black;
-text-align: left;
-padding: 25px 0 0 0;
-margin: 0 0 0 0;
-}
-.screen
-{
-height: 300px;
- background-color: white;
- border-radius: 10px;
- padding: 20px 0 50px 0;
- margin-bottom: 50px;
-text-align: center;
+
+
+
+
 color: steelBlue;
 }
-#task
+.task
 {
  text-align: center;
- font-family: arial;
- font-size: 30px;
- color: Red;
- margin-bottom: -110px;
- margin-top: 0px;
+ font-size: 60px;
 }
-#counter
-{
-margin-left: 50px;
- font-size: 30px;
-}
+
 #bia
 {
  font-size: 25px;
  background-color: steelBlue;
  border-radius: 50px;
- padding-bottom: 0;
  border: solid white 1px;
  color: white;
- display: inline-block;
- vertical-align: middle;
  height: 40px;
  width: 100px;
- margin-left: 30px;
- margin-right: 30px;
  }
 #bib
 {
  font-size: 25px;
  background-color: red;
  border-radius: 50px;
- padding-bottom: 0;
  border: solid white 1px;
  color: white;
- display: inline-block;
- vertical-align: middle;
  height: 40px;
  width: 100px;
- margin-left: 30px;
- margin-right: 30px;
+ margin-left: 50px;
  }
  .buttons
  {
-  text-align: center;
-  margin-top: 70px;
+ text-align: center;
+ display:inline-block;
+position:relative;
+margin-top: 30px;
  }
- #make
- {
- position:absolute;
-  margin: 0%;
- transform: translate(-135px,0);
-  font-size: 16px;
-  font-weight: normal;
-     color: darkSlateGray;
-     display:inline;
+ #counter {
+  text-align: left;
  }
- #call {
- position:absolute;
-  margin: 0%;
- transform: translate(-70px,0);
-   font-size: 16px;
-    font-weight: normal;
-       color: darkSlateGray;
-           display:inline;
- }
- #keepCool {
- position:absolute;
- margin: 0%;
- transform: translate(-5px,0);
-   font-size: 16px;
-    font-weight: normal;
-          color: darkSlateGray;
-              display:inline;
- }
- #reflect {
- position:absolute;
-  margin: 0%;
- transform: translate(60px,0);
-   font-size: 16px;
-    font-weight: normal;
-          color: darkSlateGray;
-              display:inline;
- }
- #reset {
- position:absolute;
-  margin: 0%;
- transform: translate(120px,0);
-  font-size: 16px;
-   font-weight: normal;
-         color: darkSlateGray;
-             display:inline;
-}
