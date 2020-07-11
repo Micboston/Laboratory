@@ -107,6 +107,7 @@ z-index:0;
 }
 #mouth 
 {
+Position:relative;
 width: 100px;
 height: 50px;
 border: solid 10px black;
@@ -120,6 +121,7 @@ z-index:1;
 }
 #mouth1
 {
+Position:relative;
 width: 100px;
 height: 50px;
 border: solid 10px transparent;
@@ -131,6 +133,7 @@ z-index:2;
 }
 #smiles 
 {
+Position Relative;
 width: 100px;
 height: 100px;
 border: solid 10px black;
