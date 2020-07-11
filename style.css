@@ -103,6 +103,7 @@ height: 200px;
  border: solid black 11px;
  border-radius: 200px;
    animation: a2 6s infinite;
+z-index:0;
 }
 #mouth 
 {
@@ -115,6 +116,7 @@ border: solid 10px black;
  border-right-color:transparent;
  border-left-color: transparent;
  border-top-color: transparent;
+z-index:1;
 }
 #mouth1
 {
@@ -124,6 +126,7 @@ border: solid 10px transparent;
  background-color: transparent;
  border-radius:0 0 100px 100px;
  margin:   -50px 50px 0px 40px;
+z-index:2;
 
 }
 #smiles 
@@ -137,6 +140,7 @@ border: solid 10px black;
  border-right-color:transparent;
  border-left-color: transparent;
  border-top-color: transparent;
+z-index:3;
 }
 #eye
 {
