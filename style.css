@@ -115,7 +115,6 @@ border: solid 10px black;
  border-right-color:transparent;
  border-left-color: transparent;
  border-top-color: transparent;
-z-index:0;
 }
 #mouth1
 {
@@ -125,7 +124,6 @@ border: solid 10px transparent;
  background-color: transparent;
  border-radius:0 0 100px 100px;
  margin:   -50px 50px 0px 40px;
-z-index:1;
 
 }
 #smiles 
@@ -139,7 +137,6 @@ border: solid 10px black;
  border-right-color:transparent;
  border-left-color: transparent;
  border-top-color: transparent;
-z-index:2;
 }
 #eye
 {
@@ -154,46 +151,46 @@ border: solid 8px black;
 @keyframes a2 {
   
     0% {
-     left: 25%;
+     left: 20%;
      top: 50px;
-   transform: scale(0.5);
+   transform: scale(0.5) rotate(-45deg);
     }
   17%
   {
    left:0;
    top:70px;
-       transform: scale(0.8);
+       transform: scale(0.8) rotate(45deg);
   }
   34%
   {
-   left: -25%;
+   left: -20%;
    top:50px;
-   transform: scale(0.5);
+   transform: scale(0.5) rotate(-45deg);
   }
      51%
      {
-     left:-25%;
+     left:-20%;
      top:-10px;
-       transform: scale(.8);
+       transform: scale(.8) rotate(45deg);
  }
    
     68%
     {
      left: 0%;
      top:-30px;
-     transform: scale(.5);
+     transform: scale(.5) rotate(-45deg);
     }
   85%
   {
-   left:25%;
+   left:20%;
    top:-10px;
-      transform: scale(0.8);
+      transform: scale(0.8) rotate(45deg);
   }
   100%
   {
-   left:25%;
+   left:20%;
    top:50px;
-   transform: scale(.5);
+   transform: scale(.5) rotate(-45deg);
   }
   
 
