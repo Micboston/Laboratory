@@ -90,9 +90,8 @@ margin-top: -10px;
 }
 #face {
 position: relative;
-margin-left: 20%;
-margin-bottom: 30px;
-transform: translate(0%,-10%);
+margin-left: 35%;
+transform: translate(-50%,-10%);
 width: 200px;
 height: 200px;
  background-color:gold;
@@ -158,7 +157,7 @@ border: solid 8px black;
 @keyframes a2 {
   
     0% {
-     left: 100%;
+     left: 10%;
      top: 50px;
    transform: scale(0.5) rotate(-45deg);
     }
@@ -170,13 +169,13 @@ border: solid 8px black;
   }
   34%
   {
-   left: -50%;
+   left: -10%;
    top:50px;
    transform: scale(0.5) rotate(-45deg);
   }
      51%
      {
-     left:-50%;
+     left:-10%;
      top:-10px;
        transform: scale(.8) rotate(45deg);
  }
@@ -189,13 +188,13 @@ border: solid 8px black;
     }
   85%
   {
-   left:50%;
+   left:10%;
    top:-10px;
       transform: scale(0.8) rotate(45deg);
   }
   100%
   {
-   left:50%;
+   left:10%;
    top:50px;
    transform: scale(.5) rotate(-45deg);
   }
