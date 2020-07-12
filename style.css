@@ -89,8 +89,8 @@ font-weight: bold;
 margin-top: -10px;
 }
 #face {
-position: relative;
-margin-left: 35%;
+position: absolute;
+margin-left: 50%;
 transform: translate(-50%,-10%);
 width: 200px;
 height: 200px;
