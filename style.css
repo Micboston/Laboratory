@@ -90,44 +90,37 @@ height: 200px;
   
    0% {
      left: 10%;
-     top: 50px;
    transform: scale(0.5) rotate(-45deg);
     }
   17%
   {
    left:0;
-   top:70px;
        transform: scale(0.8) rotate(45deg);
   }
   34%
   {
    left: -10%;
-   top:50px;
    transform: scale(0.5) rotate(-45deg);
   }
      51%
      {
      left:-10%;
-     top:-10px;
        transform: scale(.8) rotate(45deg);
  }
    
     68%
     {
      left: 0%;
-     top:-30px;
      transform: scale(.5) rotate(-45deg);
     }
   85%
   {
    left:10%;
-   top:-10px;
       transform: scale(0.8) rotate(45deg);
   }
   100%
   {
    left:10%;
-   top:50px;
    transform: scale(.5) rotate(-45deg);
   }
   
