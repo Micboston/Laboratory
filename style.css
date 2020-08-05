@@ -12,7 +12,6 @@
 .button
 {
 margin-top:-40px;
-padding: 0 0 0 0;
 height: 100px;
 text-align: center;
 background-color: pink;
@@ -39,7 +38,6 @@ font-size: 20px;
  color: white;
  font-weight: bold;
  margin: 10px 0 0 0;
- padding-bottom: 0px;
 }
 .keepCool
 {
@@ -71,7 +69,7 @@ width: 60px;
 font-size: 20px;
 color:white;
 font-weight: bold;
-margin-top: -10px;
+ margin-top: -10px;
 }
 #face {
 position: absolute;
@@ -86,7 +84,8 @@ height: 200px;
  color: black;
  font-weight: bold;
  border: solid black 11px;
- border-radius: 200px;
+ border-radius: 50%;
+ animation: a2 2s infinite;
 }
 #mouth
 {
@@ -100,6 +99,27 @@ border: solid 10px black;
  border-left-color: transparent;
  border-top-color: transparent;
  z-index:0;
+}
+#mouth1
+{
+ width: 100px;
+ height: 50px;
+ border: solid 10px transparent;
+ background-color:transparent;
+ border-radius: 0 0 100px 100px;
+ margin: -50px 50px 0 40px;
+}
+#smiles
+{
+ width: 100px;
+ height: 100px;
+ border: solid 10px black;
+ background-color: gold;
+ border-radius: 0 0 100% 100%;
+ margin: -40px 50px 40px 40px;
+ border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
 }
 #eye
 {
@@ -145,8 +165,7 @@ color: steelBlue;
 }
 #counter
 {
-margin-left: 50px;
- font-size: 30px;
+text-align: left;
 }
 #bia
 {
@@ -182,50 +201,8 @@ margin-left: 50px;
  {
   text-align: center;
   margin-top: 70px;
+  display: inline-block;
+  position:relative;
  }
- #make
- {
- position:absolute;
-  margin: 0%;
- transform: translate(-135px,0);
-  font-size: 16px;
-  font-weight: normal;
-     color: darkSlateGray;
-     display:inline;
- }
- #call {
- position:absolute;
-  margin: 0%;
- transform: translate(-70px,0);
-   font-size: 16px;
-    font-weight: normal;
-       color: darkSlateGray;
-           display:inline;
- }
- #keepCool {
- position:absolute;
- margin: 0%;
- transform: translate(-5px,0);
-   font-size: 16px;
-    font-weight: normal;
-          color: darkSlateGray;
-              display:inline;
- }
- #reflect {
- position:absolute;
-  margin: 0%;
- transform: translate(60px,0);
-   font-size: 16px;
-    font-weight: normal;
-          color: darkSlateGray;
-              display:inline;
- }
- #reset {
- position:absolute;
-  margin: 0%;
- transform: translate(120px,0);
-  font-size: 16px;
-   font-weight: normal;
-         color: darkSlateGray;
-             display:inline;
+
 }
