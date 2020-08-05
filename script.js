@@ -99,6 +99,7 @@ function set(mode) {
     .innerHTML = reset;
    document.getElementById("counter")
     .innerHTML = "";
+}
    if (reset < 144) {
     bcolor = "gray";
     focus = "Status Quo";
@@ -191,6 +192,7 @@ function set(mode) {
   
  }
  
+}
 }
 
 function myFunction() {
