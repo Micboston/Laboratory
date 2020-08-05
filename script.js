@@ -15,6 +15,9 @@ function set(mode) {
  var mouth = "";
  var mouth1Border = "";
  var mouth1Color = "";
+ var anima = "";
+ var animaa = "a2 1s infinite";
+ var animab = "a2 8s 1";
  
  if (mode === "make") {
   if (reset < 144) {
@@ -35,6 +38,7 @@ function set(mode) {
    focus = "You passed the point";
    color = "black";
    task = "white";
+   anima = animab
    
   }
  } else if (mode === "keepCool") {
@@ -54,11 +58,13 @@ function set(mode) {
    radius = 100;
    mouth1Border = "black";
    mouth1Color = "white";
+   anima = animaa;
   } else {
    focus = "You passed the point";
    color = "black";
    task = "white";
    radius = 0;
+   anima = animab
   }
  } else if (mode === "reflect") {
   if (reset < 144) {
@@ -76,12 +82,14 @@ function set(mode) {
    color = "magenta";
    mouth1Border = "black";
    mouth1Color = "white";
+   anima = animaa;
    
   } else {
    focus = "You passed the point";
    color = "black";
    task = "white";
    radius = 0;
+   anima = animab;
   }
  } else if (mode === "reset") {
   if (reset < 144) {
@@ -103,11 +111,13 @@ function set(mode) {
     mouth = "black";
     mouth1Border = "black";
     mouth1Color = "white";
+    anima = animaa;
    } else {
     focus = "You passed the point";
     color = "black";
     task = "white";
     radius = 0;
+    anima = animab;
     
    }
   } else {
@@ -123,6 +133,7 @@ function set(mode) {
     color = "black";
     task = "white";
     radius = 0;
+    anima = animab;
    }
   }
  } else {
@@ -140,14 +151,17 @@ function set(mode) {
    task = "white";
    mouth1Border = "black";
    mouth1Color = "white";
+   anima = animaa;
   } else {
    focus = "You passed the point";
    color = "black";
    task = "white";
    radius = 0;
+   anima = animab;
   }
  }
  console.log(focus);
+ document.getElementById("face").style.animation = anima;
  var board = document.getElementById(
   "counter");
  var panel = document.createElement(
