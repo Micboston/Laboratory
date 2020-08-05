@@ -136,7 +136,6 @@ function set(mode) {
     radius = 0;
     anima = animab;
    }
-  }
  } else {
   if (reset < 144) {
    task = "white";
@@ -160,7 +159,7 @@ function set(mode) {
    radius = 0;
    anima = animab;
   }
- }
+ 
  console.log(focus);
  document.getElementById("face").style.animation = anima;
  var board = document.getElementById(
@@ -186,7 +185,7 @@ function set(mode) {
  document.getElementById("mouth1").style
   .backgroundColor = mouth1Color;
  
- if (reset === 144) {
+ }if (reset === 144) {
   focus = "You did it";
  } else {
   
