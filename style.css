@@ -116,7 +116,7 @@ border: solid 10px black;
  border: solid 10px black;
  background-color: gold;
  border-radius: 0 0 100% 100%;
- margin: -40px 50px 40px 40px;
+ margin:0 50px 40px 40px;
  border-right-color: transparent;
   border-left-color: transparent;
   border-top-color: transparent;
