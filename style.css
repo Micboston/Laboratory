@@ -132,7 +132,7 @@ height: 50px;
 border: solid 10px black;
  background-color: gold;
  border-radius:0 0 100% 100%;
- margin:   20px 50px 20px 40px;
+ margin:   -20px 50px 20px 40px;
  border-right-color:transparent;
  border-left-color: transparent;
  border-top-color: transparent;
@@ -144,7 +144,7 @@ height: 50px;
 border: solid 10px transparent;
  background-color: transparent;
  border-radius:0 0 100px 100px;
- margin:   -50px 50px 20px 40px;
+ margin:   -150px 50px 20px 40px;
 
 }
 #smiles 
