@@ -134,6 +134,7 @@ border: solid 10px black;
  border-left-color: transparent;
  border-top-color: transparent;
 Left:50%;
+Transform:translate(-50%);
 }
 #mouth1
 {
