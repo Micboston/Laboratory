@@ -1,49 +1,82 @@
-#title
+#title 
 {
+font-family: noteworthy;
+height: 100px;
  font-size: 50px;
  color: white;
  text-align:center;
- font-family: noteworthy;
  background-color: lightGray;
- border-radius: 10px;
- margin-bottom: 5px;
+ border-radius: 30px 30px 0 0;
+ }
+#guide {
+width: 100%;
+height: 30px;
+ color: black;
+ font-size: 14px;
+ background-color: white;
+ border-radius: 0 0 30px 30px;
+ margin-top: -60px;
+ border: solid 1px gray;
+ 
 }
 
+body {
+ font-family: optima;
+ text-align: center;
+ font-size: 15px;
+ width: 100%;
+} 
+#screen {
+
+height: 300px;
+border-radius: 30px;
+padding-bottom: 30px;
+font-size: 20px;
+width: 100%;
+background-color: ;
+
+ 
+}
+#task {
+ font-size: 30px;
+ font-weight: bold;
+padding-top: 30px;
+}
 .button
 {
-margin-top:-40px;
 height: 100px;
-text-align: center;
 background-color: pink;
-border-radius: 10px;
+border-radius:30px;
+margin-top: 10px;
 }
 .Call {
 border: solid 2px white;
 background-color: orange;
-border-radius: 10px;
+border-radius: 30px;
 height:60px;
 width: 60px;
 font-size: 20px;
 color:white;
 font-weight: bold;
-}
-.make
+} 
+.make 
 {
 border: solid 2px white;
 background-color: crimson;
-border-radius: 10px;
+border-radius: 30px;
 height:60px;
 width: 60px;
 font-size: 20px;
  color: white;
  font-weight: bold;
  margin: 10px 0 0 0;
+ padding-bottom: 0px;
 }
-.keepCool
+.keepCool 
 {
 border: solid 2px white;
 background-color: seaGreen;
-border-radius: 10px;
+border-radius: 30px;
 height:60px;
 width: 60px;
  font-size: 20px;
@@ -53,7 +86,7 @@ width: 60px;
 .reflect{
 background-color: steelBlue;
 border: solid 2px white;
-border-radius: 10px;
+border-radius: 30px;
 height:60px;
 width: 60px;
 font-size: 20px;
@@ -63,21 +96,25 @@ font-weight: bold;
 .reset{
 background-color: magenta;
 border: solid 2px white;
-border-radius: 10px;
+border-radius: 30px;
 height:60px;
 width: 60px;
 font-size: 20px;
 color:white;
 font-weight: bold;
- margin-top: -10px;
+margin-top: -10px;
+}
+#head {
+ text-align: center;
+ width: 100%;
+ height: 100%;
 }
 #face {
-position: absolute;
-margin-left: 50%;
-margin-top: -30px;
-transform: translate(-55%,80%);
+position:relative;
+margin-left: 25%;
 width: 200px;
 height: 200px;
+left:10%;
  background-color:gold;
  font-size: 50px;
  text-align: center;
@@ -85,41 +122,42 @@ height: 200px;
  font-weight: bold;
  border: solid black 11px;
  border-radius: 50%;
- animation: a2 2s infinite;
+   animation:a2 6s infinite;
+   
 }
-#mouth
+#mouth 
+{
+width: 100px;
+height: 50px;
+border: solid 10px black;
+ background-color: gold;
+ border-radius:0 0 100% 100%;
+ margin:   20px 50px -10px 40px;
+ border-right-color:transparent;
+ border-left-color: transparent;
+ border-top-color: transparent;
+}
+#mouth1
+{
+width: 100px;
+height: 50px;
+border: solid 10px transparent;
+ background-color: transparent;
+ border-radius:0 0 100px 100px;
+ margin:   -50px 50px 0px 40px;
+
+}
+#smiles 
 {
 width: 100px;
 height: 100px;
 border: solid 10px black;
  background-color: gold;
  border-radius:0% 0% 100% 100%;
- margin:  10px 50px 40px 40px;
+ margin:   -40px 50px 40px 40px;
  border-right-color:transparent;
  border-left-color: transparent;
  border-top-color: transparent;
- z-index:0;
-}
-#mouth1
-{
- width: 100px;
- height: 50px;
- border: solid 10px transparent;
- background-color:transparent;
- border-radius: 10px 0 100px 100px;
- margin:-40px 50px 40px 40px;
-}
-#smiles
-{
- width: 100px;
- height: 100px;
- border: solid 10px black;
- background-color: gold;
- border-radius: 0 0 100% 100%;
- margin:10px 50px 40px 40px;
- border-right-color: transparent;
-  border-left-color: transparent;
-  border-top-color: transparent;
 }
 #eye
 {
@@ -129,80 +167,62 @@ border: solid 8px black;
  background-color: white;
  border-radius: 100px;
  display: inline-block;
- margin: 60px 10px -30px 10px;
+ margin: 40px 10px -30px 10px;
 }
-ol
+
+@keyframes a2 {
+     25%
+     {
+  transform: scale(.6);
+margin-left: 0;
+transform: rotate(50deg);
+height: 200px;
+ }
+     75%
 {
- font-family: Arial;
+  transform: scale(.6);
+margin-right: 0;
+transform: rotate(-50deg);
+height: 180px;
+ }
+ }
+  ol{
  font-size: 20px;
- border-radius: 20px;
  color: darkGray;
 }
-#display {
-color: black;
-text-align: left;
-padding: 25px 0 0 0;
-margin: 0 0 0 0;
-}
-.screen
-{
-height: 300px;
- background-color: white;
- border-radius: 10px;
- padding: 20px 0 50px 0;
- margin-bottom: 50px;
-text-align: center;
-color: steelBlue;
-}
-#task
+.task
 {
  text-align: center;
- font-family: arial;
- font-size: 30px;
- color: Red;
- margin-bottom: -110px;
- margin-top: 0px;
-}
-#counter
-{
-text-align: left;
+ font-size: 60px;
 }
 #bia
 {
  font-size: 25px;
  background-color: steelBlue;
  border-radius: 50px;
- padding-bottom: 0;
  border: solid white 1px;
  color: white;
- display: inline-block;
- vertical-align: middle;
  height: 40px;
  width: 100px;
- margin-left: 30px;
- margin-right: 30px;
  }
 #bib
 {
  font-size: 25px;
  background-color: red;
  border-radius: 50px;
- padding-bottom: 0;
  border: solid white 1px;
  color: white;
- display: inline-block;
- vertical-align: middle;
  height: 40px;
  width: 100px;
- margin-left: 30px;
- margin-right: 30px;
+ margin-left: 50px;
  }
  .buttons
  {
-  text-align: center;
-  margin-top: 70px;
-  display: inline-block;
-  position:relative;
+ text-align: center;
+ display:inline-block;
+position:relative;
+margin-top: 30px;
  }
-
-}
+ #counter {
+  text-align: left;
+ }
