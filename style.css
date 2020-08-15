@@ -134,6 +134,7 @@ border: solid 10px black;
  border-right-color:transparent;
  border-left-color: transparent;
  border-top-color: transparent;
+Padding-left:20px;
 }
 #mouth1
 {
@@ -143,7 +144,7 @@ height: 50px;
 border: solid 10px transparent;
  background-color: transparent;
  border-radius:0 0 100px 100px;
-Padding: 0 0 0 100px;
+Padding: 0 0 0 80px;
 }
 #smiles 
 {
