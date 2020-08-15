@@ -1,10 +1,8 @@
-
 var make = 0;
 var call = 0;
 var keepCool = 0;
 var reflect = 0;
 var reset = 0;
-
 
 function set(mode) {
  var bcolor = "";
@@ -16,8 +14,8 @@ function set(mode) {
  var mouth1Border = "";
  var mouth1Color = "";
  var anima = "";
- var animaa = "a2 1s infinite";
  var animab = "a2 8s 1";
+ var animaa = "a2 1s infinite";
  
  if (mode === "make") {
   if (reset < 144) {
@@ -34,12 +32,12 @@ function set(mode) {
    task = "white";
    mouth1Border = "black";
    mouth1Color = "white";
+   anima = animaa;
   } else {
    focus = "You passed the point";
    color = "black";
    task = "white";
-   anima = animab
-   
+   anima = animab;
   }
  } else if (mode === "keepCool") {
   if (reset < 144) {
@@ -63,8 +61,8 @@ function set(mode) {
    focus = "You passed the point";
    color = "black";
    task = "white";
+   anima = animab;
    radius = 0;
-   anima = animab
   }
  } else if (mode === "reflect") {
   if (reset < 144) {
@@ -83,7 +81,6 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-   
   } else {
    focus = "You passed the point";
    color = "black";
@@ -99,43 +96,28 @@ function set(mode) {
     .innerHTML = reset;
    document.getElementById("counter")
     .innerHTML = "";
-}
-   if (reset < 144) {
-    bcolor = "gray";
-    focus = "Status Quo";
-    color = "pink";
-    task = "white";
-   } else if (reset === 144) {
-    focus = "You did it!!!";
-    color = "magenta";
-    task = "white";
-    mouth = "black";
-    mouth1Border = "black";
-    mouth1Color = "white";
-    anima = animaa;
-   } else {
-    focus = "You passed the point";
-    color = "black";
-    task = "white";
-    radius = 0;
-    anima = animab;
-    
-   }
+  }
+  if (reset < 144) {
+   bcolor = "gray";
+   focus = "Status Quo";
+   color = "pink";
+   task = "white";
+  } else if (reset === 144) {
+   focus = "You did it!!!";
+   color = "magenta";
+   task = "white";
+   mouth = "black";
+   mouth1Border = "black";
+   mouth1Color = "white";
+   anima = animaa;
   } else {
-   if (reset === 144) {
-    focus = "You did it!!!";
-    color = "magenta";
-    task = "white";
-    mouth = "black";
-    mouth1Border = "black";
-    mouth1Color = "white";
-   } else {
-    focus = "You passed the point";
-    color = "black";
-    task = "white";
-    radius = 0;
-    anima = animab;
-   }
+   focus = "You passed the point";
+   color = "black";
+   task = "white";
+   radius = 0;
+   anima = animab;
+  }
+  
  } else {
   if (reset < 144) {
    task = "white";
@@ -159,9 +141,11 @@ function set(mode) {
    radius = 0;
    anima = animab;
   }
- 
+  
+ }
  console.log(focus);
- document.getElementById("face").style.animation = anima;
+ document.getElementById("face").style
+  .animation = anima;
  var board = document.getElementById(
   "counter");
  var panel = document.createElement(
@@ -184,14 +168,6 @@ function set(mode) {
   .borderColor = mouth1Border;
  document.getElementById("mouth1").style
   .backgroundColor = mouth1Color;
- 
- }if (reset === 144) {
-  focus = "You did it";
- } else {
-  
- }
- 
-}
 }
 
 function myFunction() {
@@ -201,8 +177,5 @@ function myFunction() {
 
 function theCoder() {
  location.replace(
-  "https://uvz2dx.mimo.run/index.html");
+  "https://uvz2dx.mimo.run/index.html")
 }
-
-
-
