@@ -33,7 +33,7 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-   document.getElementById("yes").innerHTML = celebration;
+   celebration.addEventListener()
   } else {
    focus = "You passed the point";
    color = "black";
