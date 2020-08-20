@@ -174,14 +174,14 @@ border: solid 8px black;
      25%
      {
   transform: scale(.6);
-margin-left: 0;
+margin-left: 100%;
 transform: rotate(50deg);
 height: 200px;
  }
      75%
 {
   transform: scale(.6);
-margin-right: 0;
+margin-left: 50%;
 transform: rotate(-50deg);
 height: 180px;
  }
