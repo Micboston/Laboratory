@@ -17,6 +17,10 @@ function set(mode) {
  var animab = "a2 8s 1";
  var animaa = "a2 1s infinite";
  var celebration = document.getElementById("yes");
+ function enableLoop() {
+  celebration.loop=True;
+  celebration.load();
+ }
  if (mode === "make") {
   if (reset < 144) {
    task = "white";
