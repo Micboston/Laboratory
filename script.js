@@ -28,7 +28,7 @@ function set(mode) {
     .innerHTML = make;
   } else if (reset === 144) {
    focus = "You did it!!!";
-   color = "magenta";
+   color = "crimson";
    task = "white";
    mouth1Border = "black";
    mouth1Color = "white";
@@ -52,7 +52,7 @@ function set(mode) {
     keepCool;
   } else if (reset === 144) {
    focus = "You did it!!!";
-   color = "magenta";
+   color = "seaGreen";
    task = "white";
    radius = 100;
    mouth1Border = "black";
@@ -78,7 +78,7 @@ function set(mode) {
   } else if (reset === 144) {
    focus = "You did it!!!";
    task = "white";
-   color = "magenta";
+   color = "steelBlue";
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
@@ -130,7 +130,7 @@ function set(mode) {
     .innerHTML = call;
   } else if (reset === 144) {
    focus = "You did it!!!";
-   color = "magenta";
+   color = "orange";
    task = "white";
    mouth1Border = "black";
    mouth1Color = "white";
