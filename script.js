@@ -16,7 +16,7 @@ function set(mode) {
  var anima = "";
  var animab = "a2 8s 1";
  var animaa = "a2 1s infinite";
- 
+ var celebration= "Yes.ma4"
  if (mode === "make") {
   if (reset < 144) {
    task = "white";
@@ -33,6 +33,7 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
+   document.getElementById("yes").innerHTML = celebration;
   } else {
    focus = "You passed the point";
    color = "black";
