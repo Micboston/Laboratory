@@ -31,7 +31,6 @@ function set(mode) {
    document.getElementById("make")
     .innerHTML = make;
   } else if (reset === 144) {
-Celebrate();
    focus = "You did it!!!";
    color = "crimson";
    task = "white";
