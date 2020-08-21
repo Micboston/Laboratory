@@ -17,7 +17,7 @@ function set(mode) {
  var animab = "a2 8s 1";
  var animaa = "a2 5s infinite";
  var celebration = document.getElementById("yes");
- function enableLoop() {
+ function Celebrate() {
   celebration.loop=True;
   celebration.play("yes.ma4");
  }
@@ -31,13 +31,14 @@ function set(mode) {
    document.getElementById("make")
     .innerHTML = make;
   } else if (reset === 144) {
+Celebrate();
    focus = "You did it!!!";
    color = "crimson";
    task = "white";
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
- enableLoop();
+
   } else {
    focus = "You passed the point";
    color = "black";
@@ -62,7 +63,7 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-   enableLoop();
+  
   } else {
    focus = "You passed the point";
    color = "black";
@@ -87,7 +88,7 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-   enableLoop();
+  
   } else {
    focus = "You passed the point";
    color = "black";
@@ -117,7 +118,7 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-  enableLoop();
+ 
   } else {
    focus = "You passed the point";
    color = "black";
@@ -142,7 +143,7 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-   enableLoop();
+  
   } else {
    focus = "You passed the point";
    color = "black";
