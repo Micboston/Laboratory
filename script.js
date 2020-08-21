@@ -19,7 +19,7 @@ function set(mode) {
  var celebration = document.getElementById("yes");
  function Celebrate() {
   celebration.loop=True;
-  celebration.play("yes.m4a");
+  celebration.play("");
  }
  if (mode === "make") {
   if (reset < 144) {
