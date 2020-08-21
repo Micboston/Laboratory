@@ -178,10 +178,18 @@ left: 0;
 transform: rotate(50deg);
 height: 200px;
  }
-     75%
+     50%
 {
   transform: scale(.6);
  left:70%;
+margin-right: 500px;
+transform: rotate(-50deg);
+height: 180px;
+ }
+    75%
+{
+  transform: scale(.6);
+ left:0%;
 margin-right: 500px;
 transform: rotate(-50deg);
 height: 180px;
