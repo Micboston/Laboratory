@@ -15,7 +15,7 @@ function set(mode) {
  var mouth1Color = "";
  var anima = "";
  var animab = "a2 8s 1";
- var animaa = "a2 1s infinite";
+ var animaa = "a2 3s infinite";
  var celebration = document.getElementById("yes");
  function enableLoop() {
   celebration.loop=True;
