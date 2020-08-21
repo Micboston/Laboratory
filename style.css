@@ -175,7 +175,7 @@ border: solid 8px black;
      {
   transform: scale(.6);
 left: 0;
-transform: rotate(50deg);
+transform: rotate(5deg);
 height: 200px;
  }
      50%
@@ -183,7 +183,7 @@ height: 200px;
   transform: scale(.6);
  left:70%;
 margin-right: 500px;
-transform: rotate(-50deg);
+transform: rotate(-5deg);
 height: 180px;
  }
     75%
@@ -191,7 +191,7 @@ height: 180px;
   transform: scale(.6);
  left:0%;
 margin-right: 500px;
-transform: rotate(-50deg);
+transform: rotate(-5deg);
 height: 180px;
  }
  }
