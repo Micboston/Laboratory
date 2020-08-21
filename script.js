@@ -3,6 +3,13 @@ var call = 0;
 var keepCool = 0;
 var reflect = 0;
 var reset = 0;
+var x = document.getElementById("yes");
+
+function cel(){
+x.loop=True;
+x.play("yes.m4a");
+}
+
 
 function set(mode) {
  var bcolor = "";
@@ -33,6 +40,7 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
+cel();
 
   } else {
    focus = "You passed the point";
