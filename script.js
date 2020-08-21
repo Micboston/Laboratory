@@ -19,7 +19,7 @@ function set(mode) {
  var celebration = document.getElementById("yes");
  function enableLoop() {
   celebration.loop=True;
-  celebration.load();
+  celebration.play();
  }
  if (mode === "make") {
   if (reset < 144) {
@@ -37,7 +37,7 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-   celebration.play();
+ enableLoop();
   } else {
    focus = "You passed the point";
    color = "black";
@@ -62,7 +62,7 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-   celebration.play();
+   enableLoop();
   } else {
    focus = "You passed the point";
    color = "black";
@@ -87,7 +87,7 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-   celebration.play();
+   enableLoop();
   } else {
    focus = "You passed the point";
    color = "black";
