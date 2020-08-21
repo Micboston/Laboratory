@@ -19,7 +19,7 @@ function set(mode) {
  var celebration = document.getElementById("yes");
  function Celebrate() {
   celebration.loop=True;
-  celebration.play();
+  celebration.play("yes.ma4");
  }
  if (mode === "make") {
   if (reset < 144) {
@@ -62,7 +62,7 @@ Celebrate();
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-  
+   Celebrate();
   } else {
    focus = "You passed the point";
    color = "black";
@@ -87,7 +87,7 @@ Celebrate();
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-  
+  Celebrate();
   } else {
    focus = "You passed the point";
    color = "black";
@@ -117,7 +117,7 @@ Celebrate();
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
- 
+ Celebrate();
   } else {
    focus = "You passed the point";
    color = "black";
@@ -142,7 +142,7 @@ Celebrate();
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-  
+  Celebrate();
   } else {
    focus = "You passed the point";
    color = "black";
