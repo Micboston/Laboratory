@@ -37,7 +37,7 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-
+Celebrate();
   } else {
    focus = "You passed the point";
    color = "black";
