@@ -19,7 +19,7 @@ function set(mode) {
  var celebration = document.getElementById("yes");
  function enableLoop() {
   celebration.loop=True;
-  celebration.play();
+  celebration.play("yes.ma4");
  }
  if (mode === "make") {
   if (reset < 144) {
