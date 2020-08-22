@@ -44,7 +44,7 @@ x.play();}
 
   } else {
    focus = "You passed the point";
-   color = "black";
+   color = "magenta";
    task = "white";
    anima = animab;
   }
@@ -69,7 +69,7 @@ x.play();}
    
   } else {
    focus = "You passed the point";
-   color = "black";
+   color = "magenta";
    task = "white";
    anima = animab;
    radius = 0;
@@ -95,7 +95,7 @@ cel();
   
   } else {
    focus = "You passed the point";
-   color = "black";
+   color = "magenta";
    task = "white";
    radius = 0;
    anima = animab;
@@ -112,11 +112,11 @@ cel();
   if (reset < 144) {
    bcolor = "gray";
    focus = "Status Quo";
-   color = "pink";
+   color = "magenta";
    task = "white";
   } else if (reset === 144) {
    focus = "You did it!!!";
-   color = "magenta";
+   color = "black";
    task = "white";
    mouth = "black";
    mouth1Border = "black";
@@ -125,7 +125,7 @@ cel();
 celebrate();
   } else {
    focus = "You passed the point";
-   color = "black";
+   color = "magenta";
    task = "white";
    radius = 0;
    anima = animab;
