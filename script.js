@@ -19,6 +19,7 @@ function set(mode) {
  var animab = "a2 8s 1";
  var animaa = "a2 5s infinite";
  var x = document.getElementById("yes");
+var y = document.getElementById("point");
  
  if (mode === "make") {
   if (reset < 144) {
@@ -42,6 +43,7 @@ x.play();
    color = "pink";
    task = "white";
    anima = animab;
+y.play();
   }
  } else if (mode === "keepCool") {
   if (reset < 144) {
@@ -68,6 +70,8 @@ x.play();
    task = "white";
    anima = animab;
    radius = 0;
+y.play();
+
   }
  } else if (mode === "reflect") {
   if (reset < 144) {
@@ -94,6 +98,9 @@ x.play();
    task = "white";
    radius = 0;
    anima = animab;
+
+y.play();
+
   }
  } else if (mode === "reset") {
   if (reset < 144) {
@@ -125,6 +132,9 @@ x.play();
    task = "white";
    radius = 0;
    anima = animab;
+
+y.play();
+
   }
   
  } else {
@@ -150,6 +160,9 @@ x.play();
    task = "white";
    radius = 0;
    anima = animab;
+
+y.play();
+
   }
   
  }
