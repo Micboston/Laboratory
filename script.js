@@ -7,7 +7,7 @@ var x = document.getElementById("yes");
 
 function cel(){
 x.loop=True;
-x.play("Yes.m4a");
+x.play();
 }
 
 
