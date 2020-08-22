@@ -5,7 +5,7 @@ var reflect = 0;
 var reset = 0;
 
 function celebrate(){
-var x = document.getElementById("audio");
+var x = document.getElementById("yes");
 x.loop=True;
 x.play();
 }
@@ -121,7 +121,7 @@ cel();
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
- celebrate();
+x.play();
   } else {
    focus = "You passed the point";
    color = "black";
