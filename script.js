@@ -121,7 +121,7 @@ cel();
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
- Celebrate();
+ celebrate();
   } else {
    focus = "You passed the point";
    color = "black";
