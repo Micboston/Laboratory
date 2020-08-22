@@ -33,6 +33,7 @@ var y = document.getElementById("point");
   } else if (reset === 144) {
    focus = "You did it!!!";
    color = "crimson";
+bcolor = "Black";
    task = "white";
    mouth1Border = "black";
    mouth1Color = "white";
@@ -43,6 +44,7 @@ x.play();
    color = "pink";
    task = "white";
    anima = animab;
+bcolor = crimson;
 y.play();
   }
  } else if (mode === "keepCool") {
@@ -58,6 +60,7 @@ y.play();
   } else if (reset === 144) {
    focus = "You did it!!!";
    color = "seaGreen";
+bcolor= "black";
    task = "white";
    radius = 100;
    mouth1Border = "black";
@@ -67,6 +70,7 @@ y.play();
   } else {
    focus = "You passed the point";
    color = "pink";
+bcolor ="seagreen";
    task = "white";
    anima = animab;
    radius = 0;
@@ -88,6 +92,7 @@ y.play();
    focus = "You did it!!!";
    task = "white";
    color = "steelBlue";
+bcolor ="black";
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
@@ -95,6 +100,7 @@ y.play();
   } else {
    focus = "You passed the point";
    color = "pink";
+bcolor="steelBlue";
    task = "white";
    radius = 0;
    anima = animab;
