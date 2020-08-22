@@ -40,7 +40,6 @@ function set(mode) {
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-cel();
 
   } else {
    focus = "You passed the point";
@@ -85,6 +84,7 @@ cel();
     .innerHTML =
     reflect;
   } else if (reset === 144) {
+cel();
    focus = "You did it!!!";
    task = "white";
    color = "steelBlue";
