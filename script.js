@@ -85,7 +85,7 @@ x.play();}
     .innerHTML =
     reflect;
   } else if (reset === 144) {
-cel();
+
    focus = "You did it!!!";
    task = "white";
    color = "steelBlue";
@@ -122,7 +122,7 @@ cel();
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-celebrate();
+
   } else {
    focus = "You passed the point";
    color = "magenta";
@@ -150,7 +150,7 @@ celebrate();
   
   } else {
    focus = "You passed the point";
-   color = "black";
+   color = "magenta";
    task = "white";
    radius = 0;
    anima = animab;
