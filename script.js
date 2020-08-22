@@ -39,7 +39,7 @@ function set(mode) {
 x.play();
   } else {
    focus = "You passed the point";
-   color = "magenta";
+   color = "pink";
    task = "white";
    anima = animab;
   }
@@ -64,7 +64,7 @@ x.play();
    x.play();
   } else {
    focus = "You passed the point";
-   color = "magenta";
+   color = "pink";
    task = "white";
    anima = animab;
    radius = 0;
@@ -90,7 +90,7 @@ x.play();
   x.play();
   } else {
    focus = "You passed the point";
-   color = "magenta";
+   color = "pink";
    task = "white";
    radius = 0;
    anima = animab;
@@ -111,16 +111,17 @@ x.play();
    task = "white";
   } else if (reset === 144) {
    focus = "You did it!!!";
-   color = "black";
+   color = "magenta";
    task = "white";
    mouth = "black";
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
+   bcolor = "black";
 x.play();
   } else {
    focus = "You passed the point";
-   color = "magenta";
+   color = "pink";
    task = "white";
    radius = 0;
    anima = animab;
@@ -145,7 +146,7 @@ x.play();
   x.play();
   } else {
    focus = "You passed the point";
-   color = "magenta";
+   color = "pink";
    task = "white";
    radius = 0;
    anima = animab;
