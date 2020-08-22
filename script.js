@@ -18,12 +18,7 @@ function set(mode) {
  var anima = "";
  var animab = "a2 8s 1";
  var animaa = "a2 5s infinite";
- 
- 
-function celebrate(){
-var x = document.getElementById("yes");
-x.loop=True;
-x.play();}
+ var x = document.getElementById("yes");
  
  if (mode === "make") {
   if (reset < 144) {
@@ -41,7 +36,7 @@ x.play();}
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-
+x.play();
   } else {
    focus = "You passed the point";
    color = "magenta";
@@ -66,7 +61,7 @@ x.play();}
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-   
+   x.play();
   } else {
    focus = "You passed the point";
    color = "magenta";
@@ -92,7 +87,7 @@ x.play();}
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-  
+  x.play();
   } else {
    focus = "You passed the point";
    color = "magenta";
@@ -122,7 +117,7 @@ x.play();}
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-
+x.play();
   } else {
    focus = "You passed the point";
    color = "magenta";
@@ -147,7 +142,7 @@ x.play();}
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-  
+  x.play();
   } else {
    focus = "You passed the point";
    color = "magenta";
