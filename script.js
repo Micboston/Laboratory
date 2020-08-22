@@ -4,11 +4,6 @@ var keepCool = 0;
 var reflect = 0;
 var reset = 0;
 
-function celebrate(){
-var x = document.getElementById("yes");
-x.loop=True;
-x.play();
-}
 
 
 function set(mode) {
@@ -23,6 +18,12 @@ function set(mode) {
  var anima = "";
  var animab = "a2 8s 1";
  var animaa = "a2 5s infinite";
+ 
+ 
+function celebrate(){
+var x = document.getElementById("yes");
+x.loop=True;
+x.play();}
  
  if (mode === "make") {
   if (reset < 144) {
@@ -121,7 +122,7 @@ cel();
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-x.play();
+celebrate();
   } else {
    focus = "You passed the point";
    color = "black";
