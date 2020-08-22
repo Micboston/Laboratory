@@ -44,7 +44,7 @@ x.play();
    color = "pink";
    task = "white";
    anima = animab;
-bcolor = crimson;
+bcolor = "crimson";
 y.play();
   }
  } else if (mode === "keepCool") {
@@ -135,6 +135,7 @@ x.play();
   } else {
    focus = "You passed the point";
    color = "pink";
+bcolor = "magenta";
    task = "white";
    radius = 0;
    anima = animab;
@@ -155,6 +156,7 @@ y.play();
   } else if (reset === 144) {
    focus = "You did it!!!";
    color = "orange";
+bcolor="black";
    task = "white";
    mouth1Border = "black";
    mouth1Color = "white";
@@ -166,6 +168,7 @@ y.play();
    task = "white";
    radius = 0;
    anima = animab;
+bcolor="orange";
 
 y.play();
 
