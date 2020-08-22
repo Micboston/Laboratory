@@ -3,9 +3,9 @@ var call = 0;
 var keepCool = 0;
 var reflect = 0;
 var reset = 0;
-var x = document.getElementById("yes");
 
 function cel(){
+var x = document.getElementById("yes");
 x.loop=True;
 x.play();
 }
