@@ -175,20 +175,17 @@ border: solid 8px black;
      {
   transform: scale(.6);
 Margin-left:0;
-transform: rotate(0deg);
 height: 200px;
  }
      50%
 {
   transform: scale(.6);
-transform: rotate(0deg);
 height: 170px;
  }
     100%
 {
   transform: scale(.6);
 Margin-right: 0;
-transform: rotate(0deg);
 height: 200px;
  }
  }
