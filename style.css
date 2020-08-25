@@ -177,7 +177,6 @@ Height:50px;
 50%{
 transform:scale(.8);
 Height:70px;
-border-radius:100px 100px 100px 100px;
 }
 100%{
 Height:50px;
@@ -186,24 +185,24 @@ Height:50px;
 @keyframes a2 {
      0%
      {
-width:100%;
   transform: scale(.6);
 left:0;
 height: 200px;
+Width:160px;
  }
      50%
 {
-width:80%;
-  transform: scale(1);
+  transform: scale(.8);
 Margin-left:50%;
 height: 180px;
+width:200px;
  }
     100%
 {
-width:100%;
   transform: scale(.6);
 Left:0%;
 height: 200px;
+width:160px;
  }
  }
   ol{
