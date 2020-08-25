@@ -142,7 +142,7 @@ width: 100px;
 height: 50px;
 border: solid 10px transparent;
  background-color: transparent;
- border-radius:0 0 100px 100px;
+ border-radius:0 0 50px 50px;
  margin:   -50px 50px 0px 40px;
 animation:a1 2s infinite;
 }
@@ -177,7 +177,7 @@ Height:50px;
 50%{
 transform:scale(.8);
 Height:70px;
-border-radius:100px 100px 0px 0px;
+border-radius:100px 100px 100px 100px;
 }
 100%{
 Height:50px;
