@@ -126,6 +126,7 @@ height: 200px;
 
 #mouth 
 {
+Position:relative;
 width: 100px;
 height: 50px;
 border: solid 10px black;
@@ -140,6 +141,7 @@ animation:a2 6s infinite;
 }
 #mouth1
 {
+position:relative;
 width: 100px;
 height: 50px;
 border: solid 10px transparent;
@@ -150,6 +152,7 @@ animation:a1 2s infinite;
 }
 #smiles 
 {
+position:relative;
 width: 100px;
 height: 100px;
 border: solid 10px black;
