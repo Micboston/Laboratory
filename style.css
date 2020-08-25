@@ -176,7 +176,7 @@ Height:50px;
 
 50%{
 transform:scale(.8);
-Height:70px;
+Height:30px;
 }
 100%{
 Height:50px;
@@ -188,7 +188,7 @@ Height:50px;
   transform: scale(.6);
 left:0;
 height: 200px;
-Width:160px;
+Width:180px;
  }
      50%
 {
@@ -202,7 +202,7 @@ width:200px;
   transform: scale(.6);
 Left:0%;
 height: 200px;
-width:160px;
+width:180px;
  }
  }
   ol{
