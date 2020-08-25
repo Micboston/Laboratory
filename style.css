@@ -177,7 +177,7 @@ Height:50px;
 50%{
 transform:scale(.8);
 Height:70px;
-border-radius:100px 100px 100px 100px;
+border-radius:50px 50px 50px 50px;
 }
 100%{
 Height:50px;
