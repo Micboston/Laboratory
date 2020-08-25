@@ -176,6 +176,9 @@ Height:50px;
 
 50%{
 Height:70px;
+
+ border-radius:100px 100px 100px 100px;
+
 }
 
 100%{
