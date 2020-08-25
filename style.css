@@ -142,7 +142,7 @@ width: 100px;
 height: 50px;
 border: solid 10px transparent;
  background-color: transparent;
- border-radius:0 0 50px 50px;
+ border-radius:0 0 100px 100px;
  margin:   -50px 50px 0px 40px;
 animation:a1 2s infinite;
 }
@@ -186,18 +186,21 @@ Height:50px;
 @keyframes a2 {
      0%
      {
+width:100%;
   transform: scale(.6);
 left:0;
 height: 200px;
  }
      50%
 {
+width:80%;
   transform: scale(1);
 Margin-left:50%;
 height: 180px;
  }
     100%
 {
+width:100%;
   transform: scale(.6);
 Left:0%;
 height: 200px;
