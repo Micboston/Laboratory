@@ -171,17 +171,15 @@ border: solid 8px black;
 }
 @keyframes a1 {
 0% {
-transform:scale(.6);
 Height:50px;
 }
 
 50%{
-transform:scale(1);
+transform:scale(.8);
 Height:70px;
-border-radius:100px 100px 100px 100px;
+border-radius:100px 100px 0px 0px;
 }
 100%{
-transform:scale(.6);
 Height:50px;
 }
 }
