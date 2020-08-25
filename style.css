@@ -144,7 +144,7 @@ border: solid 10px transparent;
  background-color: transparent;
  border-radius:0 0 100px 100px;
  margin:   -50px 50px 0px 40px;
-
+animation:a1 6s infinite;
 }
 #smiles 
 {
@@ -168,6 +168,18 @@ border: solid 8px black;
  border-radius: 100px;
  display: inline-block;
  margin: 40px 10px -30px 10px;
+}
+@keyframes a1 {
+0% {
+Height:100px;
+}
+
+50%{
+Height:120px;
+}
+
+100%{
+Height:100px;
 }
 
 @keyframes a2 {
