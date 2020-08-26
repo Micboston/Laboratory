@@ -119,7 +119,7 @@ y.play();
   }
   if (reset < 144) {
    bcolor = "gray";
-   focus = "Status Quo";
+   focus = "Face it";
    color = "magenta";
    task = "white";
   } else if (reset === 144) {
