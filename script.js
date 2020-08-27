@@ -83,7 +83,7 @@ y.play();
    bcolor = "gray";
    color = "steelBlue";
    focus = "Reflect Upon it";
-   reflect = reflect + 4;
+   reflect = reflect + make + call + keepCool + reset;
    document.getElementById("reflect")
     .innerHTML =
     reflect;
