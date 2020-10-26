@@ -202,7 +202,7 @@ y.play();
   .backgroundColor = mouth1Color;
 }
 
-function myFunction() {
+function callTheHeart() {
  location.replace(
   "https://ecmbqa.mimo.run/index.html")
 }
