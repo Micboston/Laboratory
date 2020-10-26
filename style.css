@@ -184,11 +184,11 @@ height: 50px;
      {
     
   transform: scale(.6);
-top:10px; }
+ }
      75%
 {
   transform: scale(.6);
-bottom:10px; }
+ }
  }
   ol{
  font-size: 20px;
