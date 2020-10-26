@@ -183,7 +183,7 @@ Height: 50px;
      {
     
   transform: scale(.6);
-Bottom 10px;
+Left:50%;
 Margin-top:0
  }
 
@@ -193,11 +193,10 @@ Margin-top:50px;
      75%
 {
   transform: scale(.6);
-Right:0;
+Right:50%;
 Margin-top:100px;
  }
 100% {
-Bottom:10px;
 Margin-top:50px;
 Right:0;
 }
