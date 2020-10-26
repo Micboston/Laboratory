@@ -185,15 +185,19 @@ Height: 50px;
   transform: scale(.6);
 Bottom 10px;
  }
+
 50% {
-Left:0;}
+Left:0;
+Top:10px;}
 
      75%
 {
   transform: scale(.6);
+Right:0;
 Top:10px;
  }
 100% {
+Bottom:10px;
 Right:0;
 }
  }
