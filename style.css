@@ -184,7 +184,7 @@ Height: 50px;
     
   transform: scale(.6);
 Left:50%;
-Margin-top:0
+Margin-top:50;
  }
 
 50% {
@@ -194,7 +194,7 @@ Margin-top:50px;
 {
   transform: scale(.6);
 Right:50%;
-Margin-top:100px;
+Margin-top:50px;
  }
 100% {
 Margin-top:50px;
