@@ -170,8 +170,7 @@ border: solid 8px black;
 {
  25% 
  {
-
-  Height: 30px;
+Height: 30px;
  }
  75% 
  {
@@ -179,31 +178,29 @@ Height: 50px;
  }
 }
 @keyframes a2 {
-     25%
-     {
-    
-  transform: scale(.6);
+25%
+{
+transform: scale(.6);
 Left:50%;
 Margin-top:50;
- }
-
+}
 50% {
 Left:0;
 Margin-top:50px;
 }
-     75%
+75%
 {
-  transform: scale(.6);
+transform: scale(.6);
 Right:50%;
 Margin-top:50px;
- }
-100% {
+}
+100%
+{
 Margin-top:50px;
 Right:0;
 }
- }
-
-  ol{
+}
+ol{
  font-size: 20px;
  color: darkGray;
 }
