@@ -190,6 +190,7 @@ Margin-top:50;
 50% {
 Left:0;
 Margin-top:50px;
+}
      75%
 {
   transform: scale(.6);
@@ -205,7 +206,7 @@ Right:0;
   ol{
  font-size: 20px;
  color: darkGray;
-}u
+}
 .task
 {
  text-align: center;
