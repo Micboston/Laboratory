@@ -20,6 +20,7 @@ function set(mode) {
  var animaa = "a2 3s infinite";
  var x = document.getElementById("yes");
 var y = document.getElementById("point");
+var x1 = document.getElementById("clothes");
  
  if (mode === "make") {
   if (reset < 144) {
@@ -39,6 +40,7 @@ bcolor = "Black";
    mouth1Color = "white";
    anima = animaa;
 x.play();
+x1.play();
   } else {
    focus = "You passed the point";
    color = "pink";
