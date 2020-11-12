@@ -4,7 +4,10 @@ var keepCool = 0;
 var reflect = 0;
 var reset = 0;
 
-
+pause() {
+  var sounds = document.getElementsByTagName('audio');
+  for(i=0; i<sounds.length; i++) sounds[i].pause();
+};
 
 function set(mode) {
  var bcolor = "";
@@ -39,6 +42,7 @@ bcolor = "Black";
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
+pause();
 x.play();
 x1.play();
   } else {
@@ -133,6 +137,7 @@ y.play();
    mouth1Color = "white";
    anima = animaa;
    bcolor = "black";
+pause();
 x.play();
 x2.play();
   } else {
