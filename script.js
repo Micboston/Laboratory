@@ -4,10 +4,10 @@ var keepCool = 0;
 var reflect = 0;
 var reset = 0;
 
-pause() {
-  var sounds = document.getElementsByTagName('audio');
+function pause() {
+  var sounds = document.getElementsByTagName("audio");
   for(i=0; i<sounds.length; i++) sounds[i].pause();
-};
+}
 
 function set(mode) {
  var bcolor = "";
