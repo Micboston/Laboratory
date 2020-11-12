@@ -181,23 +181,15 @@ Height: 50px;
 25%
 {
 transform: scale(.6);
-Left:50%;
-Margin-top:50;
 }
 50% {
-Left:0;
-Margin-top:50px;
 }
 75%
 {
 transform: scale(.6);
-Right:50%;
-Margin-top:50px;
 }
 100%
 {
-Margin-top:50px;
-Right:0;
 }
 }
 ol{
