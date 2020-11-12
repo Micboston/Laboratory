@@ -4,10 +4,6 @@ var keepCool = 0;
 var reflect = 0;
 var reset = 0;
 
-function pause() {
-  var sounds = document.getElementsByTagName("audio");
-  for(i=0; i<sounds.length; i++) sounds[i].pause();
-}
 
 function set(mode) {
  var bcolor = "";
@@ -218,4 +214,8 @@ function callTheHeart() {
 function theCoder() {
  location.replace(
   "https://uvz2dx.mimo.run/index.html")
+}
+function pause() {
+  var sounds = document.getElementsByTagName("audio");
+  for(i=0; i<sounds.length; i++) sounds[i].pause();
 }
