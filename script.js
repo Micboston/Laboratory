@@ -21,7 +21,7 @@ function set(mode) {
  var x = document.getElementById("yes");
 var y = document.getElementById("point");
 var x1 = document.getElementById("clothes");
- 
+ var x2 = document.getElementById("someone");
  if (mode === "make") {
   if (reset < 144) {
    task = "white";
@@ -134,6 +134,7 @@ y.play();
    anima = animaa;
    bcolor = "black";
 x.play();
+x2.play();
   } else {
    focus = "You passed the point";
    color = "pink";
