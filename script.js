@@ -19,8 +19,15 @@ function set(mode) {
  var animaa = "a2 3s infinite";
  var x = document.getElementById("yes");
 var y = document.getElementById("point");
-var x1 = document.getElementById("clothes");
- var x2 = document.getElementById("someone");
+var x1 = document.getElementById("own");
+ var x2 = document.getElementById("um");
+
+ var x3 = document.getElementById("oceano");
+
+ var x4 = document.getElementById("you");
+
+ var x5 = document.getElementById("someone");
+
  if (mode === "make") {
   if (reset < 144) {
    task = "white";
@@ -69,7 +76,10 @@ bcolor= "black";
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
+pauseAll();
    x.play();
+pauseAll();
+x3.play();
   } else {
    focus = "You passed the point";
    color = "pink";
@@ -99,7 +109,12 @@ bcolor ="black";
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-  x.play();
+
+pauseAll();
+   x.play();
+pauseAll();
+x4.play();
+
   } else {
    focus = "You passed the point";
    color = "pink";
@@ -134,10 +149,12 @@ y.play();
    mouth1Color = "white";
    anima = animaa;
    bcolor = "black";
+
 pauseAll();
-x.play();
-pauseAll(); who 
-x2.play();
+   x.play();
+pauseAll();
+x5.play();
+
   } else {
    focus = "You passed the point";
    color = "pink";
@@ -167,7 +184,10 @@ bcolor="black";
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-  x.play();
+ pauseAll();
+   x.play();
+pauseAll();
+x2.play();
   } else {
    focus = "You passed the point";
    color = "pink";
