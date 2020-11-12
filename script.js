@@ -41,7 +41,6 @@ bcolor = "Black";
    anima = animaa;
 pauseAll();
 x.play();
-pauseAll();
 x1.play();
   } else {
    focus = "You passed the point";
@@ -72,7 +71,6 @@ y.play();
    anima = animaa;
    pauseAll();
    x.play();
-   pauseAll();
    x3.play();
   } else {
    focus = "You passed the point";
@@ -103,7 +101,6 @@ y.play();
    anima = animaa;
    pauseAll();
    x.play();
-   pauseAll();
    x4.play();
   } else {
    focus = "You passed the point";
@@ -139,7 +136,6 @@ y.play();
    bcolor = "black";
    pauseAll();
    x.play();
-   pauseAll();
    x5.play();
   } else {
    focus = "You passed the point";
@@ -169,7 +165,6 @@ y.play();
    anima = animaa;
    pauseAll();
    x.play();
-   pauseAll();
    x2.play();
   } else {
    focus = "You passed the point";
