@@ -38,7 +38,7 @@ bcolor = "Black";
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-pause();
+stopAll();
 x.play();
 x1.play();
   } else {
@@ -133,7 +133,7 @@ y.play();
    mouth1Color = "white";
    anima = animaa;
    bcolor = "black";
-pause();
+stopAll();
 x.play();
 x2.play();
   } else {
@@ -215,7 +215,7 @@ function theCoder() {
  location.replace(
   "https://uvz2dx.mimo.run/index.html")
 }
-function pause() {
+function stopAll() {
   var sounds = document.getElementsByTagName("audio");
   for(i=0; i<sounds.length; i++) sounds[i].pause();
 }
