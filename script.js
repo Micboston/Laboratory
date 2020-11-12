@@ -38,8 +38,9 @@ bcolor = "Black";
    mouth1Border = "black";
    mouth1Color = "white";
    anima = animaa;
-stopAll();
+pauseAll();
 x.play();
+pauseAll();
 x1.play();
   } else {
    focus = "You passed the point";
@@ -133,8 +134,9 @@ y.play();
    mouth1Color = "white";
    anima = animaa;
    bcolor = "black";
-stopAll();
+pauseAll();
 x.play();
+pauseAll(); who 
 x2.play();
   } else {
    focus = "You passed the point";
@@ -215,7 +217,7 @@ function theCoder() {
  location.replace(
   "https://uvz2dx.mimo.run/index.html")
 }
-function stopAll() {
+function pauseAll() {
   var sounds = document.getElementsByTagName("audio");
   for(i=0; i<sounds.length; i++) sounds[i].pause();
 }
