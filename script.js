@@ -41,7 +41,7 @@ bcolor = "Black";
    anima = animaa;
 pauseAll();
 x.play();
-x1.play();
+x1.play(loop);
    console.log("Whitney Houston");
   } else {
    focus = "You passed the point";
