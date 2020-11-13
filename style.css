@@ -98,13 +98,14 @@ font-size: 20px;
 color:white;
 font-weight: bold;
 margin-top: -10px;
-}#head 
-{
+}
+#head{
+position:absolute;
  text-align: center;
  width: 100%;
  height: 100%;
  display: flex;
-justify-content: space-around;
+justify-content: center;
 }
 #face {
 position:relative;
