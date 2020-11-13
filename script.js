@@ -42,6 +42,7 @@ bcolor = "Black";
 pauseAll();
 x.play();
 x1.play();
+   console.log("Whitney Houston");
   } else {
    focus = "You passed the point";
    color = "pink";
@@ -72,6 +73,7 @@ y.play();
    pauseAll();
    x.play();
    x3.play();
+   console.log("Djavan");
   } else {
    focus = "You passed the point";
    color = "pink";
@@ -102,6 +104,7 @@ y.play();
    pauseAll();
    x.play();
    x4.play();
+   console.log("Shakira");
   } else {
    focus = "You passed the point";
    color = "pink";
@@ -137,6 +140,7 @@ y.play();
    pauseAll();
    x.play();
    x5.play();
+   console.log("U2");
   } else {
    focus = "You passed the point";
    color = "pink";
@@ -166,6 +170,7 @@ y.play();
    pauseAll();
    x.play();
    x2.play();
+   console.log("Tribalistas");
   } else {
    focus = "You passed the point";
    color = "pink";
