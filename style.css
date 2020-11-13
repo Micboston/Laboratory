@@ -107,7 +107,7 @@ margin-top: -10px;
  height: 100%;
 }
 #face {
-position:relative;
+position:absolute;
 width: 200px;
 height: 200px;
  background-color:gold;
