@@ -98,14 +98,14 @@ font-size: 20px;
 color:white;
 font-weight: bold;
 margin-top: -10px;
-}#head 
+}
+#head 
 {
-position:absolute;
  text-align: center;
  width: 100%;
  height: 100%;
  display: flex;
-justify-content: space-around;
+justify-content: center;
 }
 #face {
 position:relative;
@@ -130,7 +130,7 @@ height: 50px;
 border: solid 10px black;
  background-color: transparent;
  border-radius:20% 20% 100% 100%;
- margin:   0px 50px 0px 50px;
+ margin:   0px 50px 0px 30px;
  border-right-color:transparent;
  border-left-color: transparent;
  border-top-color: transparent;
@@ -144,7 +144,7 @@ height: 50px;
 border: solid 10px transparent;
  background-color: transparent;
  border-radius:20px 20px 100px 100px;
- margin:   -40px 0px 0px 0px;
+ margin:   -40px 0px 0px -20px;
   animation:a1 1s infinite;
 }
 #smiles 
@@ -155,7 +155,7 @@ height: 50px;
 border: solid 10px black;
  background-color: gold;
  border-radius:20% 20% 100% 100%;
- margin:   -20px 50px 40px 50px;
+ margin:   -20px 50px 40px 30px;
  border-right-color:transparent;
  border-left-color: transparent;
  border-top-color: transparent;
