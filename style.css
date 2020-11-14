@@ -37,6 +37,11 @@ background-color: ;
  font-weight: bold;
 padding-top: 30px;
 }
+#picture {
+ width: 200px;
+ height: 200px;
+ border-radius: 50%;
+}
 .button
 {
 height: 100px;
