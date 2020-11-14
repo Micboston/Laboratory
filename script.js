@@ -22,8 +22,8 @@ function set(mode) {
  var x3 = document.getElementById("oceano");
  var x4 = document.getElementById("you");
  var x5 = document.getElementById("someone");
- var sad = "sadye.jpg"
- var picture = document.getElementById("face").src;
+ var sad = "Sadye.jpg"
+ var picture = document.getElementById("picture").src;
  if (mode === "make") {
   if (reset < 144) {
    task = "white";
