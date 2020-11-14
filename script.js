@@ -189,6 +189,7 @@ y.play();
   }
  }
  console.log(focus);
+ document.getElementbyId("face").style.backgroundColor = color;
  document.getElementById("face").style
   .animation = anima;
  var board = document.getElementById(
