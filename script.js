@@ -22,6 +22,8 @@ function set(mode) {
  var x3 = document.getElementById("oceano");
  var x4 = document.getElementById("you");
  var x5 = document.getElementById("someone");
+ var sad = "sadye.jpg";
+ var picture = document.getElementById("picture");
  if (mode === "make") {
   if (reset < 144) {
    task = "white";
@@ -49,6 +51,7 @@ x1.play(loop);
    task = "white";
    anima = animab;
 bcolor = "crimson";
+   picture = sad;
 y.play();
   }
  } else if (mode === "keepCool") {
@@ -81,6 +84,7 @@ y.play();
    task = "white";
    anima = animab;
    radius = 0;
+   picture = sad;
    y.play();
   }
  } else if (mode === "reflect") {
@@ -112,6 +116,7 @@ y.play();
    task = "white";
    radius = 0;
    anima = animab;
+   picture =sad;
    y.play();
   } 
  } else if (mode === "reset") {
@@ -148,6 +153,7 @@ y.play();
    task = "white";
    radius = 0;
    anima = animab;
+   picture = sad;
    y.play();
   }
  } else {
@@ -178,6 +184,7 @@ y.play();
    radius = 0;
    anima = animab;
    bcolor="orange";
+   picture = sad;
    y.play();
   }
  }
