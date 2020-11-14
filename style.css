@@ -140,7 +140,7 @@ border: solid 10px black;
 #mouth1
 {
 position: relative;
- margin-top: -10px;
+top:-25px;
 display: flex;
 justify-content: center; 
 width: 80px;
