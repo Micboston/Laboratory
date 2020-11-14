@@ -124,7 +124,9 @@ left:0%;
 }
 #mouth 
 {
-position: relative;
+ display: flex;
+justify-content: center;
+ position: relative;
 width: 80px;
 height: 50px;
 border: solid 10px black;
@@ -137,7 +139,7 @@ border: solid 10px black;
 }
 #mouth1
 {
-position: absolute;
+position: relative;
 display: flex;
 justify-content: center; 
 width: 80px;
@@ -149,6 +151,8 @@ border: solid 10px transparent;
 }
 #smiles 
 {
+ display: flex;
+justify-content: center; 
 position: relative;
 width: 100px;
 height: 50px;
