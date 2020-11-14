@@ -144,7 +144,7 @@ height: 50px;
 border: solid 10px transparent;
  background-color: transparent;
  border-radius:20px 20px 100px 100px;
- margin:   -40px 0px 0px -40px;
+ margin:   -40px 0px 0px -20px;
   animation:a1 1s infinite;
 }
 #smiles 
