@@ -1,4 +1,4 @@
-#title 
+#title
 {
 font-family: noteworthy;
 height: 100px;
@@ -23,17 +23,117 @@ body {
  text-align: center;
  font-size: 15px;
  width: 100%;
-} 
+}
+
+#picture
+{
+  width: 200px;
+  height: 200px;
+  border-radius:50%;
+animation:a2 8s infinite;
+}
+
 #screen {
 height: 300px;
 border-radius: 30px;
 padding-bottom: 30px;
 font-size: 20px;
 width: 100%;
-background-color: ;
 }
 #task {
  font-size: 30px;
+ font-weight: bold;
+padding-top: 30px;
+}
+.button
+{
+height: 100px;
+background-color: pink;
+border-radius:30px;
+margin-top: 10px;
+}
+.Call {
+border: solid 2px white;
+background-color: orange;
+border-radius: 30px;
+height:60px;
+width: 60px;
+font-size: 20px;
+color:white;
+font-weight: bold;
+}
+.make
+{
+border: solid 2px white;
+background-color: crimson;
+border-radius: 30px;
+height:60px;
+width: 60px;
+font-size: 20px;
+ color: white;
+ font-weight: bold;
+ margin: 10px 0 0 0;
+ padding-bottom: 0px;
+}
+.keepCool
+{
+border: solid 2px white;
+background-color: seaGreen;
+border-radius: 30px;
+height:60px;
+width: 60px;
+ font-size: 20px;
+ color: white;
+ font-weight: bold;
+}
+.reflect{
+background-color: steelBlue;
+border: solid 2px white;
+border-radius: 30px;
+height:60px;
+width: 60px;
+font-size: 20px;
+color:white;
+font-weight: bold;
+}
+.reset{
+background-color: magenta;
+border: solid 2px white;
+border-radius: 30px;
+height:60px;
+width: 60px;
+font-size: 20px;
+color:white;
+font-weight: bold;
+margin-top: -10px;
+}
+
+
+
+
+
+@keyframes a2 {
+25%
+{
+transform: scale(.6);
+}
+50% {
+  transform: scale(1.2);
+}
+75%
+{
+transform: scale(.6);
+}
+100% {
+  transform: scale(1.2)
+}
+
+
+ }
+ #counter {
+ font-family: optima;
+  text-align: left;
+ }
  font-weight: bold;
 padding-top: 30px;
 }
