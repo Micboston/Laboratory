@@ -3,6 +3,7 @@ var call = 0;
 var keepCool = 0;
 var reflect = 0;
 var reset = 0;
+
 function set(mode) {
  var bcolor = "";
  var color = "";
@@ -14,7 +15,7 @@ function set(mode) {
  var mouth1Color = "";
  var anima = "";
  var animab = "a2 8s 1";
- var animaa = "a2 3s infinite";
+ var animaa = "a2 4s infinite";
  var x = document.getElementById("yes");
  var y = document.getElementById("point");
  var x1 = document.getElementById("own");
@@ -22,18 +23,25 @@ function set(mode) {
  var x3 = document.getElementById("oceano");
  var x4 = document.getElementById("you");
  var x5 = document.getElementById("someone");
- var image = "";
- var sad = "Sadye.jpg";
- if (mode === "make") {
+var image = "";
+var smiling = "smiley.jpg";
+var happy = "excitey.jpg";
+var sad = "Sadye.jpeg";
+
+ if (mode === 'make') {
   if (reset < 144) {
+    image = smiling;
    task = "white";
    bcolor = "white";
    color = "crimson";
    focus = "Make it";
    make = make + 1;
+   anima = anima;
+
    document.getElementById("make")
     .innerHTML = make;
   } else if (reset === 144) {
+    image = happy;
    focus = "You did it!!!";
    color = "crimson";
 bcolor = "Black";
@@ -46,16 +54,17 @@ x.play();
 x1.play();
    console.log("Whitney Houston");
   } else {
+    image = sad;
    focus = "You passed the point";
    color = "pink";
    task = "white";
    anima = animab;
 bcolor = "crimson";
-   image = sad;
 y.play();
   }
- } else if (mode === "keepCool") {
+} else if (mode === 'keepCool') {
   if (reset < 144) {
+    image = smiling;
    task = "white";
    bcolor = "darkGray";
    color = "seaGreen";
@@ -64,7 +73,9 @@ y.play();
    document.getElementById("keepCool")
     .innerHTML =
     keepCool;
+    anima = anima;
   } else if (reset === 144) {
+    image = happy;
    focus = "You did it!!!";
    color = "seaGreen";
    bcolor= "black";
@@ -78,17 +89,18 @@ y.play();
    x3.play();
    console.log("Djavan");
   } else {
+    image = sad;
    focus = "You passed the point";
    color = "pink";
    bcolor ="seagreen";
    task = "white";
    anima = animab;
    radius = 0;
-   image = sad;
    y.play();
   }
- } else if (mode === "reflect") {
+} else if (mode === 'reflect') {
   if (reset < 144) {
+    image = smiling;
    task = "white";
    bcolor = "gray";
    color = "steelBlue";
@@ -97,7 +109,9 @@ y.play();
    document.getElementById("reflect")
     .innerHTML =
     reflect;
+    anima=anima;
   } else if (reset === 144) {
+    image = happy;
    focus = "You did it!!!";
    task = "white";
    color = "steelBlue";
@@ -110,30 +124,32 @@ y.play();
    x4.play();
    console.log("Shakira");
   } else {
+    image = sad;
    focus = "You passed the point";
    color = "pink";
    bcolor="steelBlue";
    task = "white";
    radius = 0;
    anima = animab;
-   image =sad;
    y.play();
-  } 
- } else if (mode === "reset") {
+  }
+} else if (mode === 'reset') {
   if (reset < 144) {
-   reset = reset + make + call +
+
+    image = smiling;
+   bcolor = "gray";
+   focus = "Face it";
+   color = "magenta";
+   task = "white";
+  reset = reset + make + call +
     keepCool + reflect;
    document.getElementById("reset")
     .innerHTML = reset;
    document.getElementById("counter")
     .innerHTML = "";
-  }
-  if (reset < 144) {
-   bcolor = "gray";
-   focus = "Face it";
-   color = "magenta";
-   task = "white";
+    anima = anima;
   } else if (reset === 144) {
+    image = happy;
    focus = "You did it!!!";
    color = "magenta";
    task = "white";
@@ -147,17 +163,18 @@ y.play();
    x5.play();
    console.log("U2");
   } else {
+    image = sad;
    focus = "You passed the point";
    color = "pink";
    bcolor = "magenta";
    task = "white";
    radius = 0;
    anima = animab;
-   image = sad;
    y.play();
   }
  } else {
   if (reset < 144) {
+    image = smiling;
    task = "white";
    bcolor = "lightGray";
    color = "orange";
@@ -165,7 +182,9 @@ y.play();
    call = call + 2;
    document.getElementById("call")
     .innerHTML = call;
+    anima = anima;
   } else if (reset === 144) {
+    image = happy;
    focus = "You did it!!!";
    color = "orange";
    bcolor="black";
@@ -178,19 +197,18 @@ y.play();
    x2.play();
    console.log("Tribalistas");
   } else {
+    image = sad;
    focus = "You passed the point";
    color = "pink";
    task = "white";
    radius = 0;
    anima = animab;
    bcolor="orange";
-   image = sad;
    y.play();
   }
  }
  console.log(focus);
- document.getElementbyId("face").style.backgroundColor = color;
- document.getElementById("face").style
+ document.getElementById("picture").style
   .animation = anima;
  var board = document.getElementById(
   "counter");
@@ -198,24 +216,20 @@ y.play();
   "li");
  panel.innerHTML = focus;
  board.appendChild(panel);
- document.getElementById("picture").src = image;
- document.getElementById("mouth").style
-  .borderRadius = radius;
  document.getElementById("screen").style
   .backgroundColor = color;
  document.getElementById("task")
   .innerHTML = focus;
  document.getElementById("task").style
   .color = task;
- document.getElementById("task").style
-  .color = task;
  document.getElementById("button").style
   .backgroundColor = bcolor;
- document.getElementById("mouth1").style
-  .borderColor = mouth1Border;
- document.getElementById("mouth1").style
-  .backgroundColor = mouth1Color;
+  document.getElementById("picture").src = image;
 }
+
+
+
+
 function callTheHeart() {
  location.replace(
   "https://ecmbqa.mimo.run/index.html")
@@ -224,6 +238,11 @@ function theCoder() {
  location.replace(
   "https://uvz2dx.mimo.run/index.html")
 }
+function pauseAll() {
+  var sounds = document.getElementsByTagName("audio");
+  for(i=0; i<sounds.length; i++) sounds[i].pause();
+}
+
 function pauseAll() {
   var sounds = document.getElementsByTagName("audio");
   for(i=0; i<sounds.length; i++) sounds[i].pause();
