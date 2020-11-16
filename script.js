@@ -15,9 +15,9 @@ function set(mode) {
  var mouth1Border = "";
  var mouth1Color = "";
  var anima = "";
- var animab = "a2 9s 3";
- var animaa = "a2 4s infinite";
-var clothes = "a2 6s infinite";
+ var animab = "a2 3s 3";
+ var animaa = "a2 15s infinite";
+var clothes = "a2 2s infinite";
  var x = document.getElementById("yes");
  var y = document.getElementById("point");
  var x1 = document.getElementById("own");
