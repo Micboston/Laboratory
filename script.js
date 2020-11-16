@@ -60,7 +60,7 @@ x1.play();
    focus = "You passed the point";
    color = "pink";
    task = "white";
-   anima = passed;
+   anima = stop;
 bcolor = "crimson";
 y.play();
   }
@@ -96,8 +96,7 @@ y.play();
    color = "pink";
    bcolor ="seagreen";
    task = "white";
-   anima = passed;
-   radius = 0;
+   anima = stop;
    y.play();
   }
 } else if (mode === 'reflect') {
@@ -120,7 +119,7 @@ y.play();
    bcolor ="black";
    mouth1Border = "black";
    mouth1Color = "white";
-   anima =normal;
+   anima =fast;
    pauseAll();
    x.play();
    x4.play();
@@ -132,7 +131,7 @@ y.play();
    bcolor="steelBlue";
    task = "white";
    radius = 0;
-   anima = passed;
+   anima = stop;
    y.play();
   }
 } else if (mode === 'reset') {
@@ -173,8 +172,7 @@ y.play();
    color = "pink";
    bcolor = "magenta";
    task = "white";
-   radius = 0;
-   anima = passed;
+   anima = stop;
    y.play();
   }
  } else {
@@ -207,7 +205,7 @@ y.play();
    color = "pink";
    task = "white";
    radius = 0;
-   anima = passed;
+   anima = stop;
    bcolor="orange";
    y.play();
   }
