@@ -15,7 +15,7 @@ function set(mode) {
  var mouth1Border = "";
  var mouth1Color = "";
  var anima = "";
- var s0 = "a2 8s 3";
+ var s0 = "a2 8s 2";
  var s1 = "a2 8s infinite";
  var s2 = "a2 16s infinite";
 var s3 = "a2 24s infinite";
@@ -196,7 +196,7 @@ y.play();
    task = "white";
    mouth1Border = "black";
    mouth1Color = "white";
-   anima = s1;
+   anima = s3;
    pauseAll();
    x.play();
    x2.play();
