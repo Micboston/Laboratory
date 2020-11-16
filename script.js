@@ -33,7 +33,7 @@ var sad = "Sadye.jpeg";
  if (mode === 'make') {
   if (reset < 144) {
     image = smiling;
-   task = "white";b
+   task = "white";
    bcolor = "white";
    color = "crimson";
    focus = "Make it";
