@@ -15,9 +15,9 @@ function set(mode) {
  var mouth1Border = "";
  var mouth1Color = "";
  var anima = "";
- var animab = "a2 3s 3";
- var animaa = "a2 5s infinite";
-var clothes = "a2 9s infinite";
+ var stop = "a2 8s 3";
+ var normal = "a2 16s infinite";
+var fast = "a2 24s infinite";
  var x = document.getElementById("yes");
  var y = document.getElementById("point");
  var x1 = document.getElementById("own");
@@ -38,7 +38,7 @@ var sad = "Sadye.jpeg";
    color = "crimson";
    focus = "Make it";
    make = make + 1;
-   anima = anima;
+   anima = normal;
 
    document.getElementById("make")
     .innerHTML = make;
@@ -50,7 +50,7 @@ bcolor = "Black";
    task = "white";
    mouth1Border = "black";
    mouth1Color = "white";
-   anima = animaa;
+   anima = fast;
 pauseAll();
 x.play();
 x1.play();
@@ -60,7 +60,7 @@ x1.play();
    focus = "You passed the point";
    color = "pink";
    task = "white";
-   anima = animab;
+   anima = passed;
 bcolor = "crimson";
 y.play();
   }
@@ -75,7 +75,7 @@ y.play();
    document.getElementById("keepCool")
     .innerHTML =
     keepCool;
-    anima = anima;
+    anima = normal;
   } else if (reset === 144) {
     image = happy;
    focus = "You did it!!!";
@@ -85,7 +85,7 @@ y.play();
    radius = 100;
    mouth1Border = "black";
    mouth1Color = "white";
-   anima = animaa;
+   anima = fast;
    pauseAll();
    x.play();
    x3.play();
@@ -96,7 +96,7 @@ y.play();
    color = "pink";
    bcolor ="seagreen";
    task = "white";
-   anima = animab;
+   anima = passed;
    radius = 0;
    y.play();
   }
@@ -111,7 +111,7 @@ y.play();
    document.getElementById("reflect")
     .innerHTML =
     reflect;
-    anima=anima;
+    anima=normal;
   } else if (reset === 144) {
     image = happy;
    focus = "You did it!!!";
@@ -120,7 +120,7 @@ y.play();
    bcolor ="black";
    mouth1Border = "black";
    mouth1Color = "white";
-   anima = clothes;
+   anima =normal;
    pauseAll();
    x.play();
    x4.play();
@@ -132,7 +132,7 @@ y.play();
    bcolor="steelBlue";
    task = "white";
    radius = 0;
-   anima = animab;
+   anima = passed;
    y.play();
   }
 } else if (mode === 'reset') {
@@ -152,7 +152,7 @@ y.play();
    color = "magenta";
    task = "white";
 
-    anima = anima;
+    anima = normal;
   } else if (reset === 144) {
     image = happy;
    focus = "You did it!!!";
@@ -161,7 +161,7 @@ y.play();
    mouth = "black";
    mouth1Border = "black";
    mouth1Color = "white";
-   anima = animaa;
+   anima = fast;
    bcolor = "black";
    pauseAll();
    x.play();
@@ -174,7 +174,7 @@ y.play();
    bcolor = "magenta";
    task = "white";
    radius = 0;
-   anima = animab;
+   anima = passed;
    y.play();
   }
  } else {
@@ -187,7 +187,7 @@ y.play();
    call = call + 2;
    document.getElementById("call")
     .innerHTML = call;
-    anima = anima;
+    anima = normal;
   } else if (reset === 144) {
     image = happy;
    focus = "You did it!!!";
@@ -196,7 +196,7 @@ y.play();
    task = "white";
    mouth1Border = "black";
    mouth1Color = "white";
-   anima = animaa;
+   anima = fast;
    pauseAll();
    x.play();
    x2.play();
@@ -207,7 +207,7 @@ y.play();
    color = "pink";
    task = "white";
    radius = 0;
-   anima = animab;
+   anima = passed;
    bcolor="orange";
    y.play();
   }
