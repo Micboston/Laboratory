@@ -16,8 +16,8 @@ function set(mode) {
  var mouth1Color = "";
  var anima = "";
  var animab = "a2 3s 3";
- var animaa = "a2 15s infinite";
-var clothes = "a2 2s infinite";
+ var animaa = "a2 5s infinite";
+var clothes = "a2 9s infinite";
  var x = document.getElementById("yes");
  var y = document.getElementById("point");
  var x1 = document.getElementById("own");
@@ -33,7 +33,7 @@ var sad = "Sadye.jpeg";
  if (mode === 'make') {
   if (reset < 144) {
     image = smiling;
-   task = "white";
+   task = "white";b
    bcolor = "white";
    color = "crimson";
    focus = "Make it";
