@@ -110,7 +110,7 @@ margin-top: -10px;
 
 @keyframes a2 {
 0% {
-transform: scale();
+transform: scale(1);
 }
 25%
 {
@@ -124,7 +124,7 @@ transform: scale(.5);
 transform: scale(.5);
 }
 100% {
-  transform: scale()
+  transform: scale(1);
 }
 }
 ol{
