@@ -107,17 +107,21 @@ color:white;
 font-weight: bold;
 margin-top: -10px;
 }
+
 @keyframes a2 {
+0% {
+transform: scale();
+}
 25%
 {
-transform: scale(.6);
+transform: scale(.5);
 }
 50% {
-  transform: scale(1.2);
+  transform: scale(1);
 }
 75%
 {
-transform: scale(.6);
+transform: scale(.5);
 }
 100% {
   transform: scale()
