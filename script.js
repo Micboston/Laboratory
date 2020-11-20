@@ -167,7 +167,7 @@ y.play();
    pauseAll();
    x.play();
    x5.play();
-   console.log("U2");
+   console.log("Kitaro");
   } else {
     image = sad;
    focus = "You passed the point";
