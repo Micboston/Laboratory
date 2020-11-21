@@ -171,7 +171,7 @@ y.play();
   } else {
     image = sad;
    focus = "You passed the point";
-   color = "pink";
+   color = "black";
    bcolor = "magenta";
    task = "white";
    anima = s0;
