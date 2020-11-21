@@ -36,7 +36,7 @@ var sad = "Sadye.jpeg";
   if (reset < 144) {
     image = smiling;
    task = "white";
-   bcolor = "gray";
+   bcolor = "white";
    color = "crimson";
    focus = "Make it";
    make = make + 1;
@@ -48,7 +48,7 @@ var sad = "Sadye.jpeg";
     image = happy;
    focus = "You did it!!!";
    color = "crimson";
-bcolor = "white";
+bcolor = "black";
    task = "white";
    mouth1Border = "black";
    mouth1Color = "white";
@@ -65,12 +65,12 @@ x1.play();
    anima = s0;
 bcolor = "crimson";
 y.play();
-  }
+  
 } else if (mode === 'keepCool') {
   if (reset < 144) {
     image = smiling;
    task = "white";
-   bcolor = "darkGray";
+   bcolor = "white";
    color = "seaGreen";
    focus = "Keep it Cool";
    keepCool = keepCool + 3;
@@ -82,7 +82,7 @@ y.play();
     image = happy;
    focus = "You did it!!!";
    color = "seaGreen";
-   bcolor= "gray";
+   bcolor= "black";
    task = "white";
    radius = 100;
    mouth1Border = "black";
@@ -105,7 +105,7 @@ y.play();
   if (reset < 144) {
     image = smiling;
    task = "white";
-   bcolor = "gray";
+   bcolor = "white";
    color = "steelBlue";
    focus = "Reflect Upon it";
    reflect = reflect + make + call + keepCool + reset;
@@ -118,7 +118,7 @@ y.play();
    focus = "You did it!!!";
    task = "white";
    color = "steelBlue";
-   bcolor ="darkGray";
+   bcolor ="black";
    mouth1Border = "black";
    mouth1Color = "white";
    anima =s1;
@@ -148,7 +148,7 @@ y.play();
     }
     if(reset <144) {
     image = smiling;
-   bcolor = "gray";
+   bcolor = "white";
    focus = "Face it";
    color = "magenta";
    task = "white";
@@ -181,7 +181,7 @@ y.play();
   if (reset < 144) {
     image = smiling;
    task = "white";
-   bcolor = "lightGray";
+   bcolor = "white";
    color = "orange";
    focus = "Call it";
    call = call + 2;
@@ -192,7 +192,7 @@ y.play();
     image = happy;
    focus = "You did it!!!";
    color = "orange";
-   bcolor="lightGray";
+   bcolor="black";
    task = "white";
    mouth1Border = "black";
    mouth1Color = "white";
