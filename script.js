@@ -62,7 +62,7 @@ y.play();
   if (reset < 144) {
     image = smiling;
    task = "white";
-   bcolor = "white";
+   bcolor = "gray";
    color = "seaGreen";
    focus = "Keep it Cool";
    keepCool = keepCool + 3;
@@ -94,7 +94,7 @@ y.play();
   if (reset < 144) {
     image = smiling;
    task = "white";
-   bcolor = "white";
+   bcolor = "darkGray";
    color = "steelBlue";
    focus = "Reflect Upon it";
    reflect = reflect + make + call + keepCool + reset;
