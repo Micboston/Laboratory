@@ -229,7 +229,3 @@ function pauseAll() {
   for(i=0; i<sounds.length; i++) sounds[i].pause();
 }
 
-function pauseAll() {
-  var sounds = document.getElementsByTagName("audio");
-  for(i=0; i<sounds.length; i++) sounds[i].pause();
-}
