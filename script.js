@@ -10,7 +10,6 @@ function set(mode) {
  var color = "";
  var focus = "";
  var task = "";
- var mouth = "";
  var anima = "";
  var s0 = "a2 8s 2";
  var s1 = "a2 8s infinite";
@@ -57,6 +56,7 @@ x1.play();
    anima = s0;
 bcolor = "crimson";
 y.play();
+}
   
 } else if (mode === 'keepCool') {
   if (reset < 144) {
