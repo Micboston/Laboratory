@@ -151,7 +151,7 @@ y.play();
    pauseAll();
    x.play();
    x5.play();
-   console.log("Kitaro");
+   console.log("Pentatonix");
   } else {
     image = sad;
    focus = "You passed the point";
