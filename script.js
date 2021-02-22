@@ -29,7 +29,7 @@ function set(mode) {
   if (reset < 144) {
     image = smiling;
    task = "white";
-   bcolor = "white";
+   bcolor = "lavender";
    color = "rosyBrown";
    focus = "Make it";
    make = make + 1;
