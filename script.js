@@ -30,7 +30,7 @@ function set(mode) {
     image = smiling;
    task = "white";
    bcolor = "white";
-   color = "crimson";
+   color = "rosyBrown";
    focus = "Make it";
    make = make + 1;
    anima = s1;
@@ -40,7 +40,7 @@ function set(mode) {
   } else if (reset === 144) {
     image = happy;
    focus = "You did it!!!";
-   color = "crimson";
+   color = "rosyBrown";
 bcolor = "black";
    task = "white";
    anima = s1;
@@ -51,10 +51,10 @@ x1.play();
   } else {
     image = sad;
    focus = "You passed the point";
-   color = "pink";
+   color = "lavender";
    task = "white";
    anima = s0;
-bcolor = "crimson";
+bcolor = "rosyBrown";
 y.play();
 }
   
@@ -63,7 +63,7 @@ y.play();
     image = smiling;
    task = "white";
    bcolor = "gray";
-   color = "seaGreen";
+   color = "darkslategray";
    focus = "Keep it Cool";
    keepCool = keepCool + 3;
    document.getElementById("keepCool")
@@ -73,7 +73,7 @@ y.play();
   } else if (reset === 144) {
     image = happy;
    focus = "You did it!!!";
-   color = "seaGreen";
+   color = "darkslategray";
    bcolor= "black";
    task = "white";
    anima = s1;
@@ -84,8 +84,8 @@ y.play();
   } else {
     image = sad;
    focus = "You passed the point";
-   color = "pink";
-   bcolor ="seagreen";
+   color = "lavender";
+   bcolor ="darkslategray";
    task = "white";
    anima = s0;
    y.play();
@@ -95,7 +95,7 @@ y.play();
     image = smiling;
    task = "white";
    bcolor = "darkGray";
-   color = "steelBlue";
+   color = "staleblue";
    focus = "Reflect Upon it";
    reflect = reflect + make + call + keepCool + reset;
    document.getElementById("reflect")
@@ -106,7 +106,7 @@ y.play();
     image = happy;
    focus = "You did it!!!";
    task = "white";
-   color = "steelBlue";
+   color = "staleblue";
    bcolor ="black";
    anima =s1;
    pauseAll();
@@ -116,8 +116,8 @@ y.play();
   } else {
     image = sad;
    focus = "You passed the point";
-   color = "pink";
-   bcolor="steelBlue";
+   color = "lavender";
+   bcolor="staleblue";
    task = "white";
    anima = s0;
    y.play();
@@ -136,18 +136,18 @@ y.play();
     image = smiling;
    bcolor = "black";
    focus = "Face it";
-   color = "magenta";
+   color = "indigo";
    task = "white";
 
     anima = s1;
   } else if (reset === 144) {
     image = happy;
    focus = "You did it!!!";
-   color = "magenta";
+   color = "indigo";
    task = "white";
    mouth = "gray";
    anima = s1;
-   bcolor = "pink";
+   bcolor = "lavender";
    pauseAll();
    x.play();
    x5.play();
@@ -156,7 +156,7 @@ y.play();
     image = sad;
    focus = "You passed the point";
    color = "black";
-   bcolor = "pink";
+   bcolor = "lavender";
    task = "white";
    anima = s0;
    y.play();
@@ -166,7 +166,7 @@ y.play();
     image = smiling;
    task = "white";
    bcolor = "lightGray";
-   color = "orange";
+   color = "lightSalmon";
    focus = "Call it";
    call = call + 2;
    document.getElementById("call")
@@ -175,7 +175,7 @@ y.play();
   } else if (reset === 144) {
     image = happy;
    focus = "You did it!!!";
-   color = "orange";
+   color = "lightSalmon";
    bcolor="black";
    task = "white";
    anima = s1;
@@ -186,10 +186,10 @@ y.play();
   } else {
     image = sad;
    focus = "You passed the point";
-   color = "pink";
+   color = "lavender";
    task = "white";
    anima = s0;
-   bcolor="orange";
+   bcolor="lightSalmon";
    y.play();
   }
  }
