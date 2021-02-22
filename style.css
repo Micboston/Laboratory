@@ -152,6 +152,7 @@ ol{
   height: 40px;
   width: 100px;
   margin: 20px 50px 20px 20px;
+border: solid invisible;
 }
 #bib {
   font-size: 25px;
@@ -161,6 +162,7 @@ ol{
   height: 40px;
   width: 100px;
   margin: 20px 20px 20px 50px;
+border: solid invisible;
 }
  #counter {
  font-family: optima;
