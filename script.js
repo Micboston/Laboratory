@@ -94,7 +94,7 @@ y.play();
   if (reset < 144) {
     image = smiling;
    task = "white";
-   bcolor = "darkGray";
+   bcolor = "gray";
    color = "staleblue";
    focus = "Reflect Upon it";
    reflect = reflect + make + call + keepCool + reset;
