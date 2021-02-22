@@ -62,7 +62,7 @@ y.play();
   if (reset < 144) {
     image = smiling;
    task = "white";
-   bcolor = "gray";
+   bcolor = "lavender";
    color = "darkslategray";
    focus = "Keep it Cool";
    keepCool = keepCool + 3;
@@ -134,7 +134,7 @@ y.play();
     }
     if(reset <144) {
     image = smiling;
-   bcolor = "black";
+   bcolor = "lavender";
    focus = "Face it";
    color = "indigo";
    task = "white";
@@ -165,7 +165,7 @@ y.play();
   if (reset < 144) {
     image = smiling;
    task = "white";
-   bcolor = "lightGray";
+   bcolor = "lavender";
    color = "lightSalmon";
    focus = "Call it";
    call = call + 2;
@@ -176,7 +176,7 @@ y.play();
     image = happy;
    focus = "You did it!!!";
    color = "lightSalmon";
-   bcolor="black";
+   bcolor="lavender";
    task = "white";
    anima = s1;
    pauseAll();
