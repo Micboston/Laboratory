@@ -146,7 +146,7 @@ ol{
 }
 #bia {
   font-size: 25px;
-  background-color: staleblue;
+  background-color: steelblue;
   border-radius: 20px;
   color: white;
   height: 40px;
@@ -155,7 +155,7 @@ ol{
 }
 #bib {
   font-size: 25px;
-  background-color: rosyBrown;
+  background-color: red;
   border-radius: 20px;
   color: white;
   height: 40px;
