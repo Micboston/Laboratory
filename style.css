@@ -48,13 +48,13 @@ padding-top: 30px;
 .button
 {
 height: 100px;
-background-color: pink;
+background-color: Lavender;
 border-radius:30px;
 margin-top: 10px;
 }
 .Call {
 border: solid 2px white;
-background-color: orange;
+background-color: lightSalmon;
 border-radius: 30px;
 height:60px;
 width: 60px;
@@ -65,7 +65,7 @@ font-weight: bold;
 .make
 {
 border: solid 2px white;
-background-color: crimson;
+background-color: rosyBrown;
 border-radius: 30px;
 height:60px;
 width: 60px;
@@ -78,7 +78,7 @@ font-size: 20px;
 .keepCool
 {
 border: solid 2px white;
-background-color: seaGreen;
+background-color: darkslategray;
 border-radius: 30px;
 height:60px;
 width: 60px;
@@ -87,7 +87,7 @@ width: 60px;
  font-weight: bold;
 }
 .reflect{
-background-color: steelBlue;
+background-color: staleblue;
 border: solid 2px white;
 border-radius: 30px;
 height:60px;
@@ -97,7 +97,7 @@ color:white;
 font-weight: bold;
 }
 .reset{
-background-color: magenta;
+background-color: indigo;
 border: solid 2px white;
 border-radius: 30px;
 height:60px;
@@ -146,7 +146,7 @@ ol{
 }
 #bia {
   font-size: 25px;
-  background-color: steelBlue;
+  background-color: staleblue;
   border-radius: 20px;
   color: white;
   height: 40px;
@@ -155,7 +155,7 @@ ol{
 }
 #bib {
   font-size: 25px;
-  background-color: red;
+  background-color: rosyBrown;
   border-radius: 20px;
   color: white;
   height: 40px;
