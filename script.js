@@ -30,7 +30,7 @@ function set(mode) {
     image = smiling;
    task = "white";
    bcolor = "lavender";
-   color = "rosyBrown";
+   color = "lightCoral";
    focus = "Make it";
    make = make + 1;
    anima = s1;
@@ -40,7 +40,7 @@ function set(mode) {
   } else if (reset === 144) {
     image = happy;
    focus = "You did it!!!";
-   color = "rosyBrown";
+   color = "lightCoral";
 bcolor = "lavender";
    task = "white";
    anima = s1;
@@ -54,7 +54,7 @@ x1.play();
    color = "lavender";
    task = "white";
    anima = s0;
-bcolor = "rosyBrown";
+bcolor = "lightCoral";
 y.play();
 }
   
