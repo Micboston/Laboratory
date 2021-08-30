@@ -200,7 +200,7 @@ y.play();
   "counter");
  var panel = document.createElement(
   "li");
- panel.innerHTML = focus;
+ panel.innerHTML =x;
  board.appendChild(panel);
  document.getElementById("screen").style
   .backgroundColor = color;
