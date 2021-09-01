@@ -24,7 +24,6 @@ function set(mode) {
  var smiling = "smiley.jpg";
  var happy = "excitey.jpg";
  var sad = "Coolley.jpg";
-D
  if (mode === 'make') {
   if (reset < 144) {
     image = smiling;
